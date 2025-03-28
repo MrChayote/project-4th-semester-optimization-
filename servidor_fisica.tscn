@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://ckqorsbrq0y12"]
+
+[ext_resource type="Script" uid="uid://b1tdf3hbtyex8" path="res://servidor_fisica.gd" id="1_w4shr"]
+
+[node name="servidor_fisica" type="Node3D"]
+script = ExtResource("1_w4shr")
