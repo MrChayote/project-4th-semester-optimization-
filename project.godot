@@ -1,0 +1,40 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="Parcial"
+run/main_scene="res://inicio.tscn"
+config/features=PackedStringArray("4.4", "Forward Plus")
+config/icon="res://icon.svg"
+
+[layer_names]
+
+3d_physics/layer_1="entorno"
+3d_physics/layer_2="bloques"
+3d_physics/layer_3="carros"
+
+[navigation]
+
+pathfinding/max_threads=10
+
+[network]
+
+limits/debugger/max_queued_messages=1020
+limits/debugger/max_errors_per_second=100
+limits/debugger/max_warnings_per_second=100
+
+[physics]
+
+3d/run_on_separate_thread=true
+
+[threading]
+
+worker_pool/max_threads=10

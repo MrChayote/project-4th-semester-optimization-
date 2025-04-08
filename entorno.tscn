@@ -1,0 +1,4618 @@
+[gd_scene load_steps=48 format=3 uid="uid://d3fo6mlxqdy40"]
+
+[ext_resource type="ArrayMesh" uid="uid://cfbvijxh3pkxm" path="res://datos/kenney_brick-kit/Models/OBJ format/bevel-hq-brick-2x6.obj" id="1_on117"]
+[ext_resource type="ArrayMesh" uid="uid://bd8evmv1fd8qb" path="res://datos/kenney_brick-kit/Models/OBJ format/bevel-hq-brick-2x2.obj" id="2_vr7vi"]
+[ext_resource type="ArrayMesh" uid="uid://dk7lwvg6dheo" path="res://datos/kenney_brick-kit/Models/OBJ format/bevel-hq-brick-2x4.obj" id="4_4us6y"]
+[ext_resource type="ArrayMesh" uid="uid://b754fd4lmob6h" path="res://datos/kenney_brick-kit/Models/OBJ format/bevel-hq-plate-4x8.obj" id="5_j5c12"]
+[ext_resource type="ArrayMesh" uid="uid://4r6rjtv07kop" path="res://datos/kenney_brick-kit/Models/OBJ format/bevel-hq-plate-4x4.obj" id="6_wrodx"]
+[ext_resource type="ArrayMesh" uid="uid://drn2btuu5r54p" path="res://datos/kenney_brick-kit/Models/OBJ format/bevel-hq-plate-2x6.obj" id="7_4rv1x"]
+[ext_resource type="ArrayMesh" uid="uid://bj3ixl4565xws" path="res://datos/Entorno/Models/Brown_Waterfall_01.obj" id="8_pljmo"]
+[ext_resource type="ArrayMesh" uid="uid://dj5qf2cdpsbhp" path="res://datos/Entorno/Models/Brown_Waterfall_Top_01.obj" id="9_4rv1x"]
+[ext_resource type="ArrayMesh" uid="uid://co2tqo2rkyudc" path="res://datos/Entorno/Models/Grey_Waterfall_01.obj" id="10_1vi4g"]
+[ext_resource type="Texture2D" uid="uid://lh57ikccinn7" path="res://datos/kenney_brick-kit/Models/OBJ format/Textures/colormap.png" id="11_1vi4g"]
+[ext_resource type="ArrayMesh" uid="uid://dgqsiuvaenj2s" path="res://datos/Entorno/Models/Plate_Grass_01.obj" id="11_iubyd"]
+[ext_resource type="ArrayMesh" uid="uid://bqku57n6jtdcr" path="res://datos/Entorno/Models/Brown_Cliff_End_01.obj" id="12_bbcxa"]
+[ext_resource type="ArrayMesh" uid="uid://biypl4dhvktvd" path="res://datos/Models/OBJ format/firetruck.obj" id="14_bbcxa"]
+[ext_resource type="Script" uid="uid://d2ox5fr4350as" path="res://van.gd" id="14_etwc2"]
+[ext_resource type="ArrayMesh" uid="uid://2f1nges0cvol" path="res://datos/Models/OBJ format/van.obj" id="14_h30pj"]
+[ext_resource type="ArrayMesh" uid="uid://n73npk3l1f2s" path="res://datos/Models/OBJ format/sedan-sports.obj" id="15_etwc2"]
+[ext_resource type="ArrayMesh" uid="uid://cvvssmd48sup5" path="res://datos/Models/OBJ format/suv.obj" id="16_575rk"]
+[ext_resource type="Script" uid="uid://1ltvrp1btwxa" path="res://seda.gd" id="16_ujq1v"]
+[ext_resource type="Script" uid="uid://c4ued1rorlctg" path="res://suvaru.gd" id="18_ujq1v"]
+[ext_resource type="Script" uid="uid://bycygyeme3mbj" path="res://bomberos.gd" id="20_bf7oh"]
+[ext_resource type="ArrayMesh" uid="uid://c3gqm743eiq0f" path="res://datos/Entorno/Models/Large_Oak_Green_01.obj" id="22_7rquo"]
+[ext_resource type="ArrayMesh" uid="uid://ee808dkeq7k4" path="res://datos/Entorno/Models/Oak_Dark_01.obj" id="23_x4utm"]
+[ext_resource type="ArrayMesh" uid="uid://cs1j01mb0k61a" path="res://datos/Entorno/Models/Oak_Green_01.obj" id="24_q1r4j"]
+[ext_resource type="ArrayMesh" uid="uid://bnwtvuschpv1a" path="res://datos/Entorno/Models/Large_Oak_Dark_01.obj" id="25_m7rge"]
+[ext_resource type="Texture2D" uid="uid://s50ul5emjb16" path="res://datos/Entorno/Models/2813796.jpg" id="26_x4utm"]
+
+[sub_resource type="GDScript" id="GDScript_x4utm"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_qjbyb"]
+size = Vector3(1.49536, 1.21777, 2.29466)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_7kcaw"]
+size = Vector3(2.28, 0.45, 0.77)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_1vi4g"]
+size = Vector3(0.77, 0.45, 0.77)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_iubyd"]
+size = Vector3(2.28, 0.45, 0.77)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_lqcwd"]
+size = Vector3(1.52, 0.45, 0.77)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_exl3t"]
+size = Vector3(3.04, 0.15, 1.52)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_h30pj"]
+size = Vector3(1.52, 0.15, 1.52)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_etwc2"]
+size = Vector3(2.28, 0.15, 0.77)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_vr7vi"]
+size = Vector3(16.0341, 0.2, 90)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_1vi4g"]
+albedo_texture = ExtResource("11_1vi4g")
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_vr7vi"]
+size = Vector2(4.62, 90)
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_vr7vi"]
+
+[sub_resource type="Sky" id="Sky_pljmo"]
+sky_material = SubResource("ProceduralSkyMaterial_vr7vi")
+
+[sub_resource type="Environment" id="Environment_vr7vi"]
+sky = SubResource("Sky_pljmo")
+ambient_light_source = 3
+ambient_light_color = Color(0.612896, 0.500755, 0.430175, 1)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_4rv1x"]
+size = Vector3(5.24774, 0.306105, 7.37403)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_q1r4j"]
+albedo_texture = ExtResource("26_x4utm")
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_m7rge"]
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_r5n8s"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_575rk"]
+size = Vector3(1.08086, 1.11245, 2.64543)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_bf7oh"]
+size = Vector3(1.30469, 1.06152, 2.38647)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_7rfcv"]
+size = Vector3(1.31445, 1, 2.60919)
+
+[node name="Entorno" type="Node3D"]
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(-0.375903, 0.25502, -0.890877, 0.00332269, 0.961751, 0.273906, 0.926653, 0.100002, -0.362372, -9.64195, 7.73202, 0.94742)
+keep_aspect = 0
+script = SubResource("GDScript_x4utm")
+
+[node name="Bomberos" type="RigidBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0852509, 4.65199, -2.87329)
+collision_layer = 4
+collision_mask = 143
+mass = 2.2
+script = ExtResource("20_bf7oh")
+
+[node name="Firetruck2" type="MeshInstance3D" parent="Bomberos"]
+mesh = ExtResource("14_bbcxa")
+skeleton = NodePath("../..")
+
+[node name="coli bomberos" type="CollisionShape3D" parent="Bomberos"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.00109863, 0.643986, 0.305672)
+shape = SubResource("BoxShape3D_qjbyb")
+
+[node name="Inicial" type="StaticBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 4.05, 0)
+collision_layer = 2
+collision_mask = 7
+
+[node name="CollisionShape3D1" type="CollisionShape3D" parent="Inicial"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_7kcaw")
+
+[node name="Bevel-hq-brick-2x6" type="MeshInstance3D" parent="Inicial"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("1_on117")
+skeleton = NodePath("../..")
+
+[node name="Sorporte" type="StaticBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3.74122, 5.22943)
+collision_layer = 2
+collision_mask = 7
+
+[node name="CollisionShape3D1" type="CollisionShape3D" parent="Sorporte"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_7kcaw")
+
+[node name="Bevel-hq-brick-2x6" type="MeshInstance3D" parent="Sorporte"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("1_on117")
+skeleton = NodePath("../..")
+
+[node name="objetivo" type="StaticBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 4.05, 7.6)
+collision_layer = 130
+collision_mask = 7
+
+[node name="objetivo" type="CollisionShape3D" parent="objetivo"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_7kcaw")
+
+[node name="Bevel-hq-brick-2x6" type="MeshInstance3D" parent="objetivo"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("1_on117")
+skeleton = NodePath("../..")
+
+[node name="piezas" type="Node" parent="."]
+
+[node name="bloque 2x2_1" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -13.3243)
+collision_layer = 2
+collision_mask = 7
+
+[node name="Bevel-hq-brick-2x2" type="MeshInstance3D" parent="piezas/bloque 2x2_1"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("2_vr7vi")
+skeleton = NodePath("../../../Inicial")
+
+[node name="colition 2x2_1" type="CollisionShape3D" parent="piezas/bloque 2x2_1"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_1vi4g")
+
+[node name="bloque 2x6_1_1" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -12.3243)
+collision_layer = 2
+collision_mask = 7
+
+[node name="Bevel-hq-brick-2x6" type="MeshInstance3D" parent="piezas/bloque 2x6_1_1"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("1_on117")
+skeleton = NodePath("../../..")
+
+[node name="colition 2x6_1" type="CollisionShape3D" parent="piezas/bloque 2x6_1_1"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_iubyd")
+
+[node name="bloque 2x4_1" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -15.3243)
+collision_layer = 10
+collision_mask = 7
+
+[node name="collition 2x4_1" type="CollisionShape3D" parent="piezas/bloque 2x4_1"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_lqcwd")
+
+[node name="Bevel-hq-brick-2x4" type="MeshInstance3D" parent="piezas/bloque 2x4_1"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("4_4us6y")
+skeleton = NodePath("../../..")
+
+[node name="plano 4x8_1" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -16.6616)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 4x8_1" type="CollisionShape3D" parent="piezas/plano 4x8_1"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_exl3t")
+
+[node name="Bevel-hq-plate-4x8" type="MeshInstance3D" parent="piezas/plano 4x8_1"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("5_j5c12")
+
+[node name="plano 4x4_1" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -18.3242)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 4x4_1" type="CollisionShape3D" parent="piezas/plano 4x4_1"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_h30pj")
+
+[node name="Bevel-hq-plate-4x4" type="MeshInstance3D" parent="piezas/plano 4x4_1"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("6_wrodx")
+
+[node name="plano 2x6_1" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0188303, -14.3344)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 2x6_1" type="CollisionShape3D" parent="piezas/plano 2x6_1"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_etwc2")
+
+[node name="Bevel-hq-plate-2x6" type="MeshInstance3D" parent="piezas/plano 2x6_1"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("7_4rv1x")
+
+[node name="bloque 2x2_2" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -13.3243)
+collision_layer = 2
+collision_mask = 7
+
+[node name="Bevel-hq-brick-2x2" type="MeshInstance3D" parent="piezas/bloque 2x2_2"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("2_vr7vi")
+skeleton = NodePath("../../../Inicial")
+
+[node name="colition 2x2_1" type="CollisionShape3D" parent="piezas/bloque 2x2_2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_1vi4g")
+
+[node name="bloque 2x6_1_2" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -12.3243)
+collision_layer = 2
+collision_mask = 7
+
+[node name="Bevel-hq-brick-2x6" type="MeshInstance3D" parent="piezas/bloque 2x6_1_2"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("1_on117")
+skeleton = NodePath("../../..")
+
+[node name="colition 2x6_1" type="CollisionShape3D" parent="piezas/bloque 2x6_1_2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_iubyd")
+
+[node name="bloque 2x4_2" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -15.3243)
+collision_layer = 10
+collision_mask = 7
+
+[node name="collition 2x4_1" type="CollisionShape3D" parent="piezas/bloque 2x4_2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_lqcwd")
+
+[node name="Bevel-hq-brick-2x4" type="MeshInstance3D" parent="piezas/bloque 2x4_2"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("4_4us6y")
+skeleton = NodePath("../../..")
+
+[node name="plano 4x8_2" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -16.6616)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 4x8_1" type="CollisionShape3D" parent="piezas/plano 4x8_2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_exl3t")
+
+[node name="Bevel-hq-plate-4x8" type="MeshInstance3D" parent="piezas/plano 4x8_2"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("5_j5c12")
+
+[node name="plano 4x4_2" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -18.3242)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 4x4_1" type="CollisionShape3D" parent="piezas/plano 4x4_2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_h30pj")
+
+[node name="Bevel-hq-plate-4x4" type="MeshInstance3D" parent="piezas/plano 4x4_2"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("6_wrodx")
+
+[node name="plano 2x6_2" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0188303, -14.3344)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 2x6_1" type="CollisionShape3D" parent="piezas/plano 2x6_2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_etwc2")
+
+[node name="Bevel-hq-plate-2x6" type="MeshInstance3D" parent="piezas/plano 2x6_2"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("7_4rv1x")
+
+[node name="bloque 2x2_3" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -13.3243)
+collision_layer = 2
+collision_mask = 7
+
+[node name="Bevel-hq-brick-2x2" type="MeshInstance3D" parent="piezas/bloque 2x2_3"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("2_vr7vi")
+skeleton = NodePath("../../../Inicial")
+
+[node name="colition 2x2_1" type="CollisionShape3D" parent="piezas/bloque 2x2_3"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_1vi4g")
+
+[node name="bloque 2x6_1_3" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -12.3243)
+collision_layer = 2
+collision_mask = 7
+
+[node name="Bevel-hq-brick-2x6" type="MeshInstance3D" parent="piezas/bloque 2x6_1_3"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("1_on117")
+skeleton = NodePath("../../..")
+
+[node name="colition 2x6_1" type="CollisionShape3D" parent="piezas/bloque 2x6_1_3"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_iubyd")
+
+[node name="bloque 2x4_3" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -15.3243)
+collision_layer = 10
+collision_mask = 7
+
+[node name="collition 2x4_1" type="CollisionShape3D" parent="piezas/bloque 2x4_3"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_lqcwd")
+
+[node name="Bevel-hq-brick-2x4" type="MeshInstance3D" parent="piezas/bloque 2x4_3"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("4_4us6y")
+skeleton = NodePath("../../..")
+
+[node name="plano 4x8_3" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -16.6616)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 4x8_1" type="CollisionShape3D" parent="piezas/plano 4x8_3"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_exl3t")
+
+[node name="Bevel-hq-plate-4x8" type="MeshInstance3D" parent="piezas/plano 4x8_3"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("5_j5c12")
+
+[node name="plano 4x4_3" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -18.3242)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 4x4_1" type="CollisionShape3D" parent="piezas/plano 4x4_3"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_h30pj")
+
+[node name="Bevel-hq-plate-4x4" type="MeshInstance3D" parent="piezas/plano 4x4_3"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("6_wrodx")
+
+[node name="plano 2x6_3" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0188303, -14.3344)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 2x6_1" type="CollisionShape3D" parent="piezas/plano 2x6_3"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_etwc2")
+
+[node name="Bevel-hq-plate-2x6" type="MeshInstance3D" parent="piezas/plano 2x6_3"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("7_4rv1x")
+
+[node name="bloque 2x2_4" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -13.3243)
+collision_layer = 2
+collision_mask = 7
+
+[node name="Bevel-hq-brick-2x2" type="MeshInstance3D" parent="piezas/bloque 2x2_4"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("2_vr7vi")
+skeleton = NodePath("../../../Inicial")
+
+[node name="colition 2x2_1" type="CollisionShape3D" parent="piezas/bloque 2x2_4"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_1vi4g")
+
+[node name="bloque 2x6_1_4" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -12.3243)
+collision_layer = 2
+collision_mask = 7
+
+[node name="Bevel-hq-brick-2x6" type="MeshInstance3D" parent="piezas/bloque 2x6_1_4"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("1_on117")
+skeleton = NodePath("../../..")
+
+[node name="colition 2x6_1" type="CollisionShape3D" parent="piezas/bloque 2x6_1_4"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_iubyd")
+
+[node name="bloque 2x4_4" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -15.3243)
+collision_layer = 10
+collision_mask = 7
+
+[node name="collition 2x4_1" type="CollisionShape3D" parent="piezas/bloque 2x4_4"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_lqcwd")
+
+[node name="Bevel-hq-brick-2x4" type="MeshInstance3D" parent="piezas/bloque 2x4_4"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("4_4us6y")
+skeleton = NodePath("../../..")
+
+[node name="plano 4x8_4" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -16.6616)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 4x8_1" type="CollisionShape3D" parent="piezas/plano 4x8_4"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_exl3t")
+
+[node name="Bevel-hq-plate-4x8" type="MeshInstance3D" parent="piezas/plano 4x8_4"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("5_j5c12")
+
+[node name="plano 4x4_4" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -18.3242)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 4x4_1" type="CollisionShape3D" parent="piezas/plano 4x4_4"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_h30pj")
+
+[node name="Bevel-hq-plate-4x4" type="MeshInstance3D" parent="piezas/plano 4x4_4"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("6_wrodx")
+
+[node name="plano 2x6_4" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0188303, -14.3344)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 2x6_1" type="CollisionShape3D" parent="piezas/plano 2x6_4"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_etwc2")
+
+[node name="Bevel-hq-plate-2x6" type="MeshInstance3D" parent="piezas/plano 2x6_4"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("7_4rv1x")
+
+[node name="bloque 2x2_5" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -13.3243)
+collision_layer = 2
+collision_mask = 7
+
+[node name="Bevel-hq-brick-2x2" type="MeshInstance3D" parent="piezas/bloque 2x2_5"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("2_vr7vi")
+skeleton = NodePath("../../../Inicial")
+
+[node name="colition 2x2_1" type="CollisionShape3D" parent="piezas/bloque 2x2_5"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_1vi4g")
+
+[node name="bloque 2x6_1_5" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -12.3243)
+collision_layer = 2
+collision_mask = 7
+
+[node name="Bevel-hq-brick-2x6" type="MeshInstance3D" parent="piezas/bloque 2x6_1_5"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("1_on117")
+skeleton = NodePath("../../..")
+
+[node name="colition 2x6_1" type="CollisionShape3D" parent="piezas/bloque 2x6_1_5"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_iubyd")
+
+[node name="bloque 2x4_5" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -15.3243)
+collision_layer = 10
+collision_mask = 7
+
+[node name="collition 2x4_1" type="CollisionShape3D" parent="piezas/bloque 2x4_5"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_lqcwd")
+
+[node name="Bevel-hq-brick-2x4" type="MeshInstance3D" parent="piezas/bloque 2x4_5"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("4_4us6y")
+skeleton = NodePath("../../..")
+
+[node name="plano 4x8_5" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -16.6616)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 4x8_1" type="CollisionShape3D" parent="piezas/plano 4x8_5"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_exl3t")
+
+[node name="Bevel-hq-plate-4x8" type="MeshInstance3D" parent="piezas/plano 4x8_5"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("5_j5c12")
+
+[node name="plano 4x4_5" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -18.3242)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 4x4_1" type="CollisionShape3D" parent="piezas/plano 4x4_5"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_h30pj")
+
+[node name="Bevel-hq-plate-4x4" type="MeshInstance3D" parent="piezas/plano 4x4_5"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("6_wrodx")
+
+[node name="plano 2x6_5" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0188303, -14.3344)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 2x6_1" type="CollisionShape3D" parent="piezas/plano 2x6_5"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_etwc2")
+
+[node name="Bevel-hq-plate-2x6" type="MeshInstance3D" parent="piezas/plano 2x6_5"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("7_4rv1x")
+
+[node name="bloque 2x2_6" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -13.3243)
+collision_layer = 2
+collision_mask = 7
+
+[node name="Bevel-hq-brick-2x2" type="MeshInstance3D" parent="piezas/bloque 2x2_6"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("2_vr7vi")
+skeleton = NodePath("../../../Inicial")
+
+[node name="colition 2x2_1" type="CollisionShape3D" parent="piezas/bloque 2x2_6"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_1vi4g")
+
+[node name="bloque 2x6_1_6" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -12.3243)
+collision_layer = 2
+collision_mask = 7
+
+[node name="Bevel-hq-brick-2x6" type="MeshInstance3D" parent="piezas/bloque 2x6_1_6"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("1_on117")
+skeleton = NodePath("../../..")
+
+[node name="colition 2x6_1" type="CollisionShape3D" parent="piezas/bloque 2x6_1_6"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_iubyd")
+
+[node name="bloque 2x4_6" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -15.3243)
+collision_layer = 10
+collision_mask = 7
+
+[node name="collition 2x4_1" type="CollisionShape3D" parent="piezas/bloque 2x4_6"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_lqcwd")
+
+[node name="Bevel-hq-brick-2x4" type="MeshInstance3D" parent="piezas/bloque 2x4_6"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("4_4us6y")
+skeleton = NodePath("../../..")
+
+[node name="plano 4x8_6" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -16.6616)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 4x8_1" type="CollisionShape3D" parent="piezas/plano 4x8_6"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_exl3t")
+
+[node name="Bevel-hq-plate-4x8" type="MeshInstance3D" parent="piezas/plano 4x8_6"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("5_j5c12")
+
+[node name="plano 4x4_6" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -18.3242)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 4x4_1" type="CollisionShape3D" parent="piezas/plano 4x4_6"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_h30pj")
+
+[node name="Bevel-hq-plate-4x4" type="MeshInstance3D" parent="piezas/plano 4x4_6"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("6_wrodx")
+
+[node name="plano 2x6_6" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0188303, -14.3344)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 2x6_1" type="CollisionShape3D" parent="piezas/plano 2x6_6"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_etwc2")
+
+[node name="Bevel-hq-plate-2x6" type="MeshInstance3D" parent="piezas/plano 2x6_6"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("7_4rv1x")
+
+[node name="bloque 2x2_7" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -13.3243)
+collision_layer = 2
+collision_mask = 7
+
+[node name="Bevel-hq-brick-2x2" type="MeshInstance3D" parent="piezas/bloque 2x2_7"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("2_vr7vi")
+skeleton = NodePath("../../../Inicial")
+
+[node name="colition 2x2_1" type="CollisionShape3D" parent="piezas/bloque 2x2_7"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_1vi4g")
+
+[node name="bloque 2x6_1_7" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -12.3243)
+collision_layer = 2
+collision_mask = 7
+
+[node name="Bevel-hq-brick-2x6" type="MeshInstance3D" parent="piezas/bloque 2x6_1_7"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("1_on117")
+skeleton = NodePath("../../..")
+
+[node name="colition 2x6_1" type="CollisionShape3D" parent="piezas/bloque 2x6_1_7"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_iubyd")
+
+[node name="bloque 2x4_7" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -15.3243)
+collision_layer = 10
+collision_mask = 7
+
+[node name="collition 2x4_1" type="CollisionShape3D" parent="piezas/bloque 2x4_7"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_lqcwd")
+
+[node name="Bevel-hq-brick-2x4" type="MeshInstance3D" parent="piezas/bloque 2x4_7"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("4_4us6y")
+skeleton = NodePath("../../..")
+
+[node name="plano 4x8_7" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -16.6616)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 4x8_1" type="CollisionShape3D" parent="piezas/plano 4x8_7"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_exl3t")
+
+[node name="Bevel-hq-plate-4x8" type="MeshInstance3D" parent="piezas/plano 4x8_7"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("5_j5c12")
+
+[node name="plano 4x4_7" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -18.3242)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 4x4_1" type="CollisionShape3D" parent="piezas/plano 4x4_7"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_h30pj")
+
+[node name="Bevel-hq-plate-4x4" type="MeshInstance3D" parent="piezas/plano 4x4_7"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("6_wrodx")
+
+[node name="plano 2x6_7" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0188303, -14.3344)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 2x6_1" type="CollisionShape3D" parent="piezas/plano 2x6_7"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_etwc2")
+
+[node name="Bevel-hq-plate-2x6" type="MeshInstance3D" parent="piezas/plano 2x6_7"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("7_4rv1x")
+
+[node name="bloque 2x2_8" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -13.3243)
+collision_layer = 2
+collision_mask = 7
+
+[node name="Bevel-hq-brick-2x2" type="MeshInstance3D" parent="piezas/bloque 2x2_8"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("2_vr7vi")
+skeleton = NodePath("../../../Inicial")
+
+[node name="colition 2x2_1" type="CollisionShape3D" parent="piezas/bloque 2x2_8"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_1vi4g")
+
+[node name="bloque 2x6_1_8" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -12.3243)
+collision_layer = 2
+collision_mask = 7
+
+[node name="Bevel-hq-brick-2x6" type="MeshInstance3D" parent="piezas/bloque 2x6_1_8"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("1_on117")
+skeleton = NodePath("../../..")
+
+[node name="colition 2x6_1" type="CollisionShape3D" parent="piezas/bloque 2x6_1_8"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_iubyd")
+
+[node name="bloque 2x4_8" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -15.3243)
+collision_layer = 10
+collision_mask = 7
+
+[node name="collition 2x4_1" type="CollisionShape3D" parent="piezas/bloque 2x4_8"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_lqcwd")
+
+[node name="Bevel-hq-brick-2x4" type="MeshInstance3D" parent="piezas/bloque 2x4_8"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("4_4us6y")
+skeleton = NodePath("../../..")
+
+[node name="plano 4x8_8" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -16.6616)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 4x8_1" type="CollisionShape3D" parent="piezas/plano 4x8_8"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_exl3t")
+
+[node name="Bevel-hq-plate-4x8" type="MeshInstance3D" parent="piezas/plano 4x8_8"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("5_j5c12")
+
+[node name="plano 4x4_8" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -18.3242)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 4x4_1" type="CollisionShape3D" parent="piezas/plano 4x4_8"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_h30pj")
+
+[node name="Bevel-hq-plate-4x4" type="MeshInstance3D" parent="piezas/plano 4x4_8"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("6_wrodx")
+
+[node name="plano 2x6_8" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0188303, -14.3344)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 2x6_1" type="CollisionShape3D" parent="piezas/plano 2x6_8"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_etwc2")
+
+[node name="Bevel-hq-plate-2x6" type="MeshInstance3D" parent="piezas/plano 2x6_8"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("7_4rv1x")
+
+[node name="bloque 2x2_9" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -13.3243)
+collision_layer = 2
+collision_mask = 7
+
+[node name="Bevel-hq-brick-2x2" type="MeshInstance3D" parent="piezas/bloque 2x2_9"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("2_vr7vi")
+skeleton = NodePath("../../../Inicial")
+
+[node name="colition 2x2_1" type="CollisionShape3D" parent="piezas/bloque 2x2_9"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_1vi4g")
+
+[node name="bloque 2x6_1_9" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -12.3243)
+collision_layer = 2
+collision_mask = 7
+
+[node name="Bevel-hq-brick-2x6" type="MeshInstance3D" parent="piezas/bloque 2x6_1_9"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("1_on117")
+skeleton = NodePath("../../..")
+
+[node name="colition 2x6_1" type="CollisionShape3D" parent="piezas/bloque 2x6_1_9"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_iubyd")
+
+[node name="bloque 2x4_9" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -15.3243)
+collision_layer = 10
+collision_mask = 7
+
+[node name="collition 2x4_1" type="CollisionShape3D" parent="piezas/bloque 2x4_9"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_lqcwd")
+
+[node name="Bevel-hq-brick-2x4" type="MeshInstance3D" parent="piezas/bloque 2x4_9"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("4_4us6y")
+skeleton = NodePath("../../..")
+
+[node name="plano 4x8_9" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -16.6616)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 4x8_1" type="CollisionShape3D" parent="piezas/plano 4x8_9"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_exl3t")
+
+[node name="Bevel-hq-plate-4x8" type="MeshInstance3D" parent="piezas/plano 4x8_9"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("5_j5c12")
+
+[node name="plano 4x4_9" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -18.3242)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 4x4_1" type="CollisionShape3D" parent="piezas/plano 4x4_9"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_h30pj")
+
+[node name="Bevel-hq-plate-4x4" type="MeshInstance3D" parent="piezas/plano 4x4_9"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("6_wrodx")
+
+[node name="plano 2x6_9" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0188303, -14.3344)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 2x6_1" type="CollisionShape3D" parent="piezas/plano 2x6_9"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_etwc2")
+
+[node name="Bevel-hq-plate-2x6" type="MeshInstance3D" parent="piezas/plano 2x6_9"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("7_4rv1x")
+
+[node name="bloque 2x2_10" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -13.3243)
+collision_layer = 2
+collision_mask = 7
+
+[node name="Bevel-hq-brick-2x2" type="MeshInstance3D" parent="piezas/bloque 2x2_10"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("2_vr7vi")
+skeleton = NodePath("../../../Inicial")
+
+[node name="colition 2x2_1" type="CollisionShape3D" parent="piezas/bloque 2x2_10"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_1vi4g")
+
+[node name="bloque 2x6_1_10" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -12.3243)
+collision_layer = 2
+collision_mask = 7
+
+[node name="Bevel-hq-brick-2x6" type="MeshInstance3D" parent="piezas/bloque 2x6_1_10"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("1_on117")
+skeleton = NodePath("../../..")
+
+[node name="colition 2x6_1" type="CollisionShape3D" parent="piezas/bloque 2x6_1_10"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_iubyd")
+
+[node name="bloque 2x4_10" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -15.3243)
+collision_layer = 10
+collision_mask = 7
+
+[node name="collition 2x4_1" type="CollisionShape3D" parent="piezas/bloque 2x4_10"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_lqcwd")
+
+[node name="Bevel-hq-brick-2x4" type="MeshInstance3D" parent="piezas/bloque 2x4_10"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("4_4us6y")
+skeleton = NodePath("../../..")
+
+[node name="plano 4x8_10" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -16.6616)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 4x8_1" type="CollisionShape3D" parent="piezas/plano 4x8_10"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_exl3t")
+
+[node name="Bevel-hq-plate-4x8" type="MeshInstance3D" parent="piezas/plano 4x8_10"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("5_j5c12")
+
+[node name="plano 4x4_10" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -18.3242)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 4x4_1" type="CollisionShape3D" parent="piezas/plano 4x4_10"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_h30pj")
+
+[node name="Bevel-hq-plate-4x4" type="MeshInstance3D" parent="piezas/plano 4x4_10"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("6_wrodx")
+
+[node name="plano 2x6_10" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0188303, -14.3344)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 2x6_1" type="CollisionShape3D" parent="piezas/plano 2x6_10"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_etwc2")
+
+[node name="Bevel-hq-plate-2x6" type="MeshInstance3D" parent="piezas/plano 2x6_10"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("7_4rv1x")
+
+[node name="bloque 2x2_11" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -13.3243)
+collision_layer = 2
+collision_mask = 7
+
+[node name="Bevel-hq-brick-2x2" type="MeshInstance3D" parent="piezas/bloque 2x2_11"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("2_vr7vi")
+skeleton = NodePath("../../../Inicial")
+
+[node name="colition 2x2_1" type="CollisionShape3D" parent="piezas/bloque 2x2_11"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_1vi4g")
+
+[node name="bloque 2x6_1_11" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -12.3243)
+collision_layer = 2
+collision_mask = 7
+
+[node name="Bevel-hq-brick-2x6" type="MeshInstance3D" parent="piezas/bloque 2x6_1_11"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("1_on117")
+skeleton = NodePath("../../..")
+
+[node name="colition 2x6_1" type="CollisionShape3D" parent="piezas/bloque 2x6_1_11"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_iubyd")
+
+[node name="bloque 2x4_11" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -15.3243)
+collision_layer = 10
+collision_mask = 7
+
+[node name="collition 2x4_1" type="CollisionShape3D" parent="piezas/bloque 2x4_11"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_lqcwd")
+
+[node name="Bevel-hq-brick-2x4" type="MeshInstance3D" parent="piezas/bloque 2x4_11"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("4_4us6y")
+skeleton = NodePath("../../..")
+
+[node name="plano 4x8_11" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -16.6616)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 4x8_1" type="CollisionShape3D" parent="piezas/plano 4x8_11"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_exl3t")
+
+[node name="Bevel-hq-plate-4x8" type="MeshInstance3D" parent="piezas/plano 4x8_11"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("5_j5c12")
+
+[node name="plano 4x4_11" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -18.3242)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 4x4_1" type="CollisionShape3D" parent="piezas/plano 4x4_11"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_h30pj")
+
+[node name="Bevel-hq-plate-4x4" type="MeshInstance3D" parent="piezas/plano 4x4_11"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("6_wrodx")
+
+[node name="plano 2x6_11" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0188303, -14.3344)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 2x6_1" type="CollisionShape3D" parent="piezas/plano 2x6_11"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_etwc2")
+
+[node name="Bevel-hq-plate-2x6" type="MeshInstance3D" parent="piezas/plano 2x6_11"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("7_4rv1x")
+
+[node name="bloque 2x2_12" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -13.3243)
+collision_layer = 2
+collision_mask = 7
+
+[node name="Bevel-hq-brick-2x2" type="MeshInstance3D" parent="piezas/bloque 2x2_12"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("2_vr7vi")
+skeleton = NodePath("../../../Inicial")
+
+[node name="colition 2x2_1" type="CollisionShape3D" parent="piezas/bloque 2x2_12"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_1vi4g")
+
+[node name="bloque 2x6_1_12" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -12.3243)
+collision_layer = 2
+collision_mask = 7
+
+[node name="Bevel-hq-brick-2x6" type="MeshInstance3D" parent="piezas/bloque 2x6_1_12"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("1_on117")
+skeleton = NodePath("../../..")
+
+[node name="colition 2x6_1" type="CollisionShape3D" parent="piezas/bloque 2x6_1_12"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_iubyd")
+
+[node name="bloque 2x4_12" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -15.3243)
+collision_layer = 10
+collision_mask = 7
+
+[node name="collition 2x4_1" type="CollisionShape3D" parent="piezas/bloque 2x4_12"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_lqcwd")
+
+[node name="Bevel-hq-brick-2x4" type="MeshInstance3D" parent="piezas/bloque 2x4_12"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("4_4us6y")
+skeleton = NodePath("../../..")
+
+[node name="plano 4x8_12" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -16.6616)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 4x8_1" type="CollisionShape3D" parent="piezas/plano 4x8_12"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_exl3t")
+
+[node name="Bevel-hq-plate-4x8" type="MeshInstance3D" parent="piezas/plano 4x8_12"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("5_j5c12")
+
+[node name="plano 4x4_12" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -18.3242)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 4x4_1" type="CollisionShape3D" parent="piezas/plano 4x4_12"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_h30pj")
+
+[node name="Bevel-hq-plate-4x4" type="MeshInstance3D" parent="piezas/plano 4x4_12"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("6_wrodx")
+
+[node name="plano 2x6_12" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0188303, -14.3344)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 2x6_1" type="CollisionShape3D" parent="piezas/plano 2x6_12"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_etwc2")
+
+[node name="Bevel-hq-plate-2x6" type="MeshInstance3D" parent="piezas/plano 2x6_12"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("7_4rv1x")
+
+[node name="bloque 2x2_13" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -13.3243)
+collision_layer = 2
+collision_mask = 7
+
+[node name="Bevel-hq-brick-2x2" type="MeshInstance3D" parent="piezas/bloque 2x2_13"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("2_vr7vi")
+skeleton = NodePath("../../../Inicial")
+
+[node name="colition 2x2_1" type="CollisionShape3D" parent="piezas/bloque 2x2_13"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_1vi4g")
+
+[node name="bloque 2x6_1_13" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -12.3243)
+collision_layer = 2
+collision_mask = 7
+
+[node name="Bevel-hq-brick-2x6" type="MeshInstance3D" parent="piezas/bloque 2x6_1_13"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("1_on117")
+skeleton = NodePath("../../..")
+
+[node name="colition 2x6_1" type="CollisionShape3D" parent="piezas/bloque 2x6_1_13"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_iubyd")
+
+[node name="bloque 2x4_13" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -15.3243)
+collision_layer = 10
+collision_mask = 7
+
+[node name="collition 2x4_1" type="CollisionShape3D" parent="piezas/bloque 2x4_13"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_lqcwd")
+
+[node name="Bevel-hq-brick-2x4" type="MeshInstance3D" parent="piezas/bloque 2x4_13"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("4_4us6y")
+skeleton = NodePath("../../..")
+
+[node name="plano 4x8_13" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -16.6616)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 4x8_1" type="CollisionShape3D" parent="piezas/plano 4x8_13"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_exl3t")
+
+[node name="Bevel-hq-plate-4x8" type="MeshInstance3D" parent="piezas/plano 4x8_13"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("5_j5c12")
+
+[node name="plano 4x4_13" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -18.3242)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 4x4_1" type="CollisionShape3D" parent="piezas/plano 4x4_13"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_h30pj")
+
+[node name="Bevel-hq-plate-4x4" type="MeshInstance3D" parent="piezas/plano 4x4_13"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("6_wrodx")
+
+[node name="plano 2x6_13" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0188303, -14.3344)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 2x6_1" type="CollisionShape3D" parent="piezas/plano 2x6_13"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_etwc2")
+
+[node name="Bevel-hq-plate-2x6" type="MeshInstance3D" parent="piezas/plano 2x6_13"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("7_4rv1x")
+
+[node name="bloque 2x2_14" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -13.3243)
+collision_layer = 2
+collision_mask = 7
+
+[node name="Bevel-hq-brick-2x2" type="MeshInstance3D" parent="piezas/bloque 2x2_14"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("2_vr7vi")
+skeleton = NodePath("../../../Inicial")
+
+[node name="colition 2x2_1" type="CollisionShape3D" parent="piezas/bloque 2x2_14"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_1vi4g")
+
+[node name="bloque 2x6_1_14" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -12.3243)
+collision_layer = 2
+collision_mask = 7
+
+[node name="Bevel-hq-brick-2x6" type="MeshInstance3D" parent="piezas/bloque 2x6_1_14"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("1_on117")
+skeleton = NodePath("../../..")
+
+[node name="colition 2x6_1" type="CollisionShape3D" parent="piezas/bloque 2x6_1_14"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_iubyd")
+
+[node name="bloque 2x4_14" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -15.3243)
+collision_layer = 10
+collision_mask = 7
+
+[node name="collition 2x4_1" type="CollisionShape3D" parent="piezas/bloque 2x4_14"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_lqcwd")
+
+[node name="Bevel-hq-brick-2x4" type="MeshInstance3D" parent="piezas/bloque 2x4_14"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("4_4us6y")
+skeleton = NodePath("../../..")
+
+[node name="plano 4x8_14" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -16.6616)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 4x8_1" type="CollisionShape3D" parent="piezas/plano 4x8_14"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_exl3t")
+
+[node name="Bevel-hq-plate-4x8" type="MeshInstance3D" parent="piezas/plano 4x8_14"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("5_j5c12")
+
+[node name="plano 4x4_14" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -18.3242)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 4x4_1" type="CollisionShape3D" parent="piezas/plano 4x4_14"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_h30pj")
+
+[node name="Bevel-hq-plate-4x4" type="MeshInstance3D" parent="piezas/plano 4x4_14"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("6_wrodx")
+
+[node name="plano 2x6_14" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0188303, -14.3344)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 2x6_1" type="CollisionShape3D" parent="piezas/plano 2x6_14"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_etwc2")
+
+[node name="Bevel-hq-plate-2x6" type="MeshInstance3D" parent="piezas/plano 2x6_14"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("7_4rv1x")
+
+[node name="bloque 2x2_15" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -13.3243)
+collision_layer = 2
+collision_mask = 7
+
+[node name="Bevel-hq-brick-2x2" type="MeshInstance3D" parent="piezas/bloque 2x2_15"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("2_vr7vi")
+skeleton = NodePath("../../../Inicial")
+
+[node name="colition 2x2_1" type="CollisionShape3D" parent="piezas/bloque 2x2_15"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_1vi4g")
+
+[node name="bloque 2x6_1_15" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -12.3243)
+collision_layer = 2
+collision_mask = 7
+
+[node name="Bevel-hq-brick-2x6" type="MeshInstance3D" parent="piezas/bloque 2x6_1_15"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("1_on117")
+skeleton = NodePath("../../..")
+
+[node name="colition 2x6_1" type="CollisionShape3D" parent="piezas/bloque 2x6_1_15"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_iubyd")
+
+[node name="bloque 2x4_15" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -15.3243)
+collision_layer = 10
+collision_mask = 7
+
+[node name="collition 2x4_1" type="CollisionShape3D" parent="piezas/bloque 2x4_15"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_lqcwd")
+
+[node name="Bevel-hq-brick-2x4" type="MeshInstance3D" parent="piezas/bloque 2x4_15"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("4_4us6y")
+skeleton = NodePath("../../..")
+
+[node name="plano 4x8_15" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -16.6616)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 4x8_1" type="CollisionShape3D" parent="piezas/plano 4x8_15"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_exl3t")
+
+[node name="Bevel-hq-plate-4x8" type="MeshInstance3D" parent="piezas/plano 4x8_15"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("5_j5c12")
+
+[node name="plano 4x4_15" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -18.3242)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 4x4_1" type="CollisionShape3D" parent="piezas/plano 4x4_15"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_h30pj")
+
+[node name="Bevel-hq-plate-4x4" type="MeshInstance3D" parent="piezas/plano 4x4_15"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("6_wrodx")
+
+[node name="plano 2x6_15" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0188303, -14.3344)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 2x6_1" type="CollisionShape3D" parent="piezas/plano 2x6_15"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_etwc2")
+
+[node name="Bevel-hq-plate-2x6" type="MeshInstance3D" parent="piezas/plano 2x6_15"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("7_4rv1x")
+
+[node name="bloque 2x2_16" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -13.3243)
+collision_layer = 2
+collision_mask = 7
+
+[node name="Bevel-hq-brick-2x2" type="MeshInstance3D" parent="piezas/bloque 2x2_16"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("2_vr7vi")
+skeleton = NodePath("../../../Inicial")
+
+[node name="colition 2x2_1" type="CollisionShape3D" parent="piezas/bloque 2x2_16"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_1vi4g")
+
+[node name="bloque 2x6_1_16" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -12.3243)
+collision_layer = 2
+collision_mask = 7
+
+[node name="Bevel-hq-brick-2x6" type="MeshInstance3D" parent="piezas/bloque 2x6_1_16"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("1_on117")
+skeleton = NodePath("../../..")
+
+[node name="colition 2x6_1" type="CollisionShape3D" parent="piezas/bloque 2x6_1_16"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_iubyd")
+
+[node name="bloque 2x4_16" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -15.3243)
+collision_layer = 10
+collision_mask = 7
+
+[node name="collition 2x4_1" type="CollisionShape3D" parent="piezas/bloque 2x4_16"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_lqcwd")
+
+[node name="Bevel-hq-brick-2x4" type="MeshInstance3D" parent="piezas/bloque 2x4_16"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("4_4us6y")
+skeleton = NodePath("../../..")
+
+[node name="plano 4x8_16" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -16.6616)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 4x8_1" type="CollisionShape3D" parent="piezas/plano 4x8_16"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_exl3t")
+
+[node name="Bevel-hq-plate-4x8" type="MeshInstance3D" parent="piezas/plano 4x8_16"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("5_j5c12")
+
+[node name="plano 4x4_16" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -18.3242)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 4x4_1" type="CollisionShape3D" parent="piezas/plano 4x4_16"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_h30pj")
+
+[node name="Bevel-hq-plate-4x4" type="MeshInstance3D" parent="piezas/plano 4x4_16"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("6_wrodx")
+
+[node name="plano 2x6_16" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0188303, -14.3344)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 2x6_1" type="CollisionShape3D" parent="piezas/plano 2x6_16"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_etwc2")
+
+[node name="Bevel-hq-plate-2x6" type="MeshInstance3D" parent="piezas/plano 2x6_16"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("7_4rv1x")
+
+[node name="bloque 2x2_17" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -13.3243)
+collision_layer = 2
+collision_mask = 7
+
+[node name="Bevel-hq-brick-2x2" type="MeshInstance3D" parent="piezas/bloque 2x2_17"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("2_vr7vi")
+skeleton = NodePath("../../../Inicial")
+
+[node name="colition 2x2_1" type="CollisionShape3D" parent="piezas/bloque 2x2_17"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_1vi4g")
+
+[node name="bloque 2x6_1_17" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -12.3243)
+collision_layer = 2
+collision_mask = 7
+
+[node name="Bevel-hq-brick-2x6" type="MeshInstance3D" parent="piezas/bloque 2x6_1_17"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("1_on117")
+skeleton = NodePath("../../..")
+
+[node name="colition 2x6_1" type="CollisionShape3D" parent="piezas/bloque 2x6_1_17"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_iubyd")
+
+[node name="bloque 2x4_17" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -15.3243)
+collision_layer = 10
+collision_mask = 7
+
+[node name="collition 2x4_1" type="CollisionShape3D" parent="piezas/bloque 2x4_17"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_lqcwd")
+
+[node name="Bevel-hq-brick-2x4" type="MeshInstance3D" parent="piezas/bloque 2x4_17"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("4_4us6y")
+skeleton = NodePath("../../..")
+
+[node name="plano 4x8_17" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -16.6616)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 4x8_1" type="CollisionShape3D" parent="piezas/plano 4x8_17"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_exl3t")
+
+[node name="Bevel-hq-plate-4x8" type="MeshInstance3D" parent="piezas/plano 4x8_17"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("5_j5c12")
+
+[node name="plano 4x4_17" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -18.3242)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 4x4_1" type="CollisionShape3D" parent="piezas/plano 4x4_17"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_h30pj")
+
+[node name="Bevel-hq-plate-4x4" type="MeshInstance3D" parent="piezas/plano 4x4_17"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("6_wrodx")
+
+[node name="plano 2x6_17" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0188303, -14.3344)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 2x6_1" type="CollisionShape3D" parent="piezas/plano 2x6_17"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_etwc2")
+
+[node name="Bevel-hq-plate-2x6" type="MeshInstance3D" parent="piezas/plano 2x6_17"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("7_4rv1x")
+
+[node name="bloque 2x2_18" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -13.3243)
+collision_layer = 2
+collision_mask = 7
+
+[node name="Bevel-hq-brick-2x2" type="MeshInstance3D" parent="piezas/bloque 2x2_18"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("2_vr7vi")
+skeleton = NodePath("../../../Inicial")
+
+[node name="colition 2x2_1" type="CollisionShape3D" parent="piezas/bloque 2x2_18"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_1vi4g")
+
+[node name="bloque 2x6_1_18" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -12.3243)
+collision_layer = 2
+collision_mask = 7
+
+[node name="Bevel-hq-brick-2x6" type="MeshInstance3D" parent="piezas/bloque 2x6_1_18"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("1_on117")
+skeleton = NodePath("../../..")
+
+[node name="colition 2x6_1" type="CollisionShape3D" parent="piezas/bloque 2x6_1_18"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_iubyd")
+
+[node name="bloque 2x4_18" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -15.3243)
+collision_layer = 10
+collision_mask = 7
+
+[node name="collition 2x4_1" type="CollisionShape3D" parent="piezas/bloque 2x4_18"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_lqcwd")
+
+[node name="Bevel-hq-brick-2x4" type="MeshInstance3D" parent="piezas/bloque 2x4_18"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("4_4us6y")
+skeleton = NodePath("../../..")
+
+[node name="plano 4x8_18" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -16.6616)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 4x8_1" type="CollisionShape3D" parent="piezas/plano 4x8_18"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_exl3t")
+
+[node name="Bevel-hq-plate-4x8" type="MeshInstance3D" parent="piezas/plano 4x8_18"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("5_j5c12")
+
+[node name="plano 4x4_18" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -18.3242)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 4x4_1" type="CollisionShape3D" parent="piezas/plano 4x4_18"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_h30pj")
+
+[node name="Bevel-hq-plate-4x4" type="MeshInstance3D" parent="piezas/plano 4x4_18"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("6_wrodx")
+
+[node name="plano 2x6_18" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0188303, -14.3344)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 2x6_1" type="CollisionShape3D" parent="piezas/plano 2x6_18"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_etwc2")
+
+[node name="Bevel-hq-plate-2x6" type="MeshInstance3D" parent="piezas/plano 2x6_18"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("7_4rv1x")
+
+[node name="bloque 2x2_19" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -13.3243)
+collision_layer = 2
+collision_mask = 7
+
+[node name="Bevel-hq-brick-2x2" type="MeshInstance3D" parent="piezas/bloque 2x2_19"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("2_vr7vi")
+skeleton = NodePath("../../../Inicial")
+
+[node name="colition 2x2_1" type="CollisionShape3D" parent="piezas/bloque 2x2_19"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_1vi4g")
+
+[node name="bloque 2x6_1_19" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -12.3243)
+collision_layer = 2
+collision_mask = 7
+
+[node name="Bevel-hq-brick-2x6" type="MeshInstance3D" parent="piezas/bloque 2x6_1_19"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("1_on117")
+skeleton = NodePath("../../..")
+
+[node name="colition 2x6_1" type="CollisionShape3D" parent="piezas/bloque 2x6_1_19"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_iubyd")
+
+[node name="bloque 2x4_19" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -15.3243)
+collision_layer = 10
+collision_mask = 7
+
+[node name="collition 2x4_1" type="CollisionShape3D" parent="piezas/bloque 2x4_19"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_lqcwd")
+
+[node name="Bevel-hq-brick-2x4" type="MeshInstance3D" parent="piezas/bloque 2x4_19"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("4_4us6y")
+skeleton = NodePath("../../..")
+
+[node name="plano 4x8_19" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -16.6616)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 4x8_1" type="CollisionShape3D" parent="piezas/plano 4x8_19"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_exl3t")
+
+[node name="Bevel-hq-plate-4x8" type="MeshInstance3D" parent="piezas/plano 4x8_19"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("5_j5c12")
+
+[node name="plano 4x4_19" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -18.3242)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 4x4_1" type="CollisionShape3D" parent="piezas/plano 4x4_19"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_h30pj")
+
+[node name="Bevel-hq-plate-4x4" type="MeshInstance3D" parent="piezas/plano 4x4_19"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("6_wrodx")
+
+[node name="plano 2x6_19" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0188303, -14.3344)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 2x6_1" type="CollisionShape3D" parent="piezas/plano 2x6_19"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_etwc2")
+
+[node name="Bevel-hq-plate-2x6" type="MeshInstance3D" parent="piezas/plano 2x6_19"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("7_4rv1x")
+
+[node name="bloque 2x2_20" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -13.3243)
+collision_layer = 2
+collision_mask = 7
+
+[node name="Bevel-hq-brick-2x2" type="MeshInstance3D" parent="piezas/bloque 2x2_20"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("2_vr7vi")
+skeleton = NodePath("../../../Inicial")
+
+[node name="colition 2x2_1" type="CollisionShape3D" parent="piezas/bloque 2x2_20"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_1vi4g")
+
+[node name="bloque 2x6_1_20" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -12.3243)
+collision_layer = 2
+collision_mask = 7
+
+[node name="Bevel-hq-brick-2x6" type="MeshInstance3D" parent="piezas/bloque 2x6_1_20"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("1_on117")
+skeleton = NodePath("../../..")
+
+[node name="colition 2x6_1" type="CollisionShape3D" parent="piezas/bloque 2x6_1_20"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_iubyd")
+
+[node name="bloque 2x4_20" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -15.3243)
+collision_layer = 10
+collision_mask = 7
+
+[node name="collition 2x4_1" type="CollisionShape3D" parent="piezas/bloque 2x4_20"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_lqcwd")
+
+[node name="Bevel-hq-brick-2x4" type="MeshInstance3D" parent="piezas/bloque 2x4_20"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("4_4us6y")
+skeleton = NodePath("../../..")
+
+[node name="plano 4x8_20" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -16.6616)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 4x8_1" type="CollisionShape3D" parent="piezas/plano 4x8_20"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_exl3t")
+
+[node name="Bevel-hq-plate-4x8" type="MeshInstance3D" parent="piezas/plano 4x8_20"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("5_j5c12")
+
+[node name="plano 4x4_20" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -18.3242)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 4x4_1" type="CollisionShape3D" parent="piezas/plano 4x4_20"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_h30pj")
+
+[node name="Bevel-hq-plate-4x4" type="MeshInstance3D" parent="piezas/plano 4x4_20"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("6_wrodx")
+
+[node name="plano 2x6_20" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0188303, -14.3344)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 2x6_1" type="CollisionShape3D" parent="piezas/plano 2x6_20"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_etwc2")
+
+[node name="Bevel-hq-plate-2x6" type="MeshInstance3D" parent="piezas/plano 2x6_20"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("7_4rv1x")
+
+[node name="bloque 2x2_21" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -13.3243)
+collision_layer = 2
+collision_mask = 7
+
+[node name="Bevel-hq-brick-2x2" type="MeshInstance3D" parent="piezas/bloque 2x2_21"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("2_vr7vi")
+skeleton = NodePath("../../../Inicial")
+
+[node name="colition 2x2_1" type="CollisionShape3D" parent="piezas/bloque 2x2_21"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_1vi4g")
+
+[node name="bloque 2x6_1_21" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -12.3243)
+collision_layer = 2
+collision_mask = 7
+
+[node name="Bevel-hq-brick-2x6" type="MeshInstance3D" parent="piezas/bloque 2x6_1_21"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("1_on117")
+skeleton = NodePath("../../..")
+
+[node name="colition 2x6_1" type="CollisionShape3D" parent="piezas/bloque 2x6_1_21"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_iubyd")
+
+[node name="bloque 2x4_21" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -15.3243)
+collision_layer = 10
+collision_mask = 7
+
+[node name="collition 2x4_1" type="CollisionShape3D" parent="piezas/bloque 2x4_21"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_lqcwd")
+
+[node name="Bevel-hq-brick-2x4" type="MeshInstance3D" parent="piezas/bloque 2x4_21"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("4_4us6y")
+skeleton = NodePath("../../..")
+
+[node name="plano 4x8_21" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -16.6616)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 4x8_1" type="CollisionShape3D" parent="piezas/plano 4x8_21"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_exl3t")
+
+[node name="Bevel-hq-plate-4x8" type="MeshInstance3D" parent="piezas/plano 4x8_21"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("5_j5c12")
+
+[node name="plano 4x4_21" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -18.3242)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 4x4_1" type="CollisionShape3D" parent="piezas/plano 4x4_21"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_h30pj")
+
+[node name="Bevel-hq-plate-4x4" type="MeshInstance3D" parent="piezas/plano 4x4_21"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("6_wrodx")
+
+[node name="plano 2x6_21" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0188303, -14.3344)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 2x6_1" type="CollisionShape3D" parent="piezas/plano 2x6_21"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_etwc2")
+
+[node name="Bevel-hq-plate-2x6" type="MeshInstance3D" parent="piezas/plano 2x6_21"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("7_4rv1x")
+
+[node name="bloque 2x2_22" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -13.3243)
+collision_layer = 2
+collision_mask = 7
+
+[node name="Bevel-hq-brick-2x2" type="MeshInstance3D" parent="piezas/bloque 2x2_22"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("2_vr7vi")
+skeleton = NodePath("../../../Inicial")
+
+[node name="colition 2x2_1" type="CollisionShape3D" parent="piezas/bloque 2x2_22"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_1vi4g")
+
+[node name="bloque 2x6_1_22" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -12.3243)
+collision_layer = 2
+collision_mask = 7
+
+[node name="Bevel-hq-brick-2x6" type="MeshInstance3D" parent="piezas/bloque 2x6_1_22"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("1_on117")
+skeleton = NodePath("../../..")
+
+[node name="colition 2x6_1" type="CollisionShape3D" parent="piezas/bloque 2x6_1_22"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_iubyd")
+
+[node name="bloque 2x4_22" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -15.3243)
+collision_layer = 10
+collision_mask = 7
+
+[node name="collition 2x4_1" type="CollisionShape3D" parent="piezas/bloque 2x4_22"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_lqcwd")
+
+[node name="Bevel-hq-brick-2x4" type="MeshInstance3D" parent="piezas/bloque 2x4_22"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("4_4us6y")
+skeleton = NodePath("../../..")
+
+[node name="plano 4x8_22" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -16.6616)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 4x8_1" type="CollisionShape3D" parent="piezas/plano 4x8_22"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_exl3t")
+
+[node name="Bevel-hq-plate-4x8" type="MeshInstance3D" parent="piezas/plano 4x8_22"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("5_j5c12")
+
+[node name="plano 4x4_22" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -18.3242)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 4x4_1" type="CollisionShape3D" parent="piezas/plano 4x4_22"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_h30pj")
+
+[node name="Bevel-hq-plate-4x4" type="MeshInstance3D" parent="piezas/plano 4x4_22"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("6_wrodx")
+
+[node name="plano 2x6_22" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0188303, -14.3344)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 2x6_1" type="CollisionShape3D" parent="piezas/plano 2x6_22"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_etwc2")
+
+[node name="Bevel-hq-plate-2x6" type="MeshInstance3D" parent="piezas/plano 2x6_22"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("7_4rv1x")
+
+[node name="bloque 2x2_23" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -13.3243)
+collision_layer = 2
+collision_mask = 7
+
+[node name="Bevel-hq-brick-2x2" type="MeshInstance3D" parent="piezas/bloque 2x2_23"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("2_vr7vi")
+skeleton = NodePath("../../../Inicial")
+
+[node name="colition 2x2_1" type="CollisionShape3D" parent="piezas/bloque 2x2_23"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_1vi4g")
+
+[node name="bloque 2x6_1_23" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -12.3243)
+collision_layer = 2
+collision_mask = 7
+
+[node name="Bevel-hq-brick-2x6" type="MeshInstance3D" parent="piezas/bloque 2x6_1_23"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("1_on117")
+skeleton = NodePath("../../..")
+
+[node name="colition 2x6_1" type="CollisionShape3D" parent="piezas/bloque 2x6_1_23"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_iubyd")
+
+[node name="bloque 2x4_23" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -15.3243)
+collision_layer = 10
+collision_mask = 7
+
+[node name="collition 2x4_1" type="CollisionShape3D" parent="piezas/bloque 2x4_23"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_lqcwd")
+
+[node name="Bevel-hq-brick-2x4" type="MeshInstance3D" parent="piezas/bloque 2x4_23"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("4_4us6y")
+skeleton = NodePath("../../..")
+
+[node name="plano 4x8_23" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -16.6616)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 4x8_1" type="CollisionShape3D" parent="piezas/plano 4x8_23"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_exl3t")
+
+[node name="Bevel-hq-plate-4x8" type="MeshInstance3D" parent="piezas/plano 4x8_23"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("5_j5c12")
+
+[node name="plano 4x4_23" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -18.3242)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 4x4_1" type="CollisionShape3D" parent="piezas/plano 4x4_23"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_h30pj")
+
+[node name="Bevel-hq-plate-4x4" type="MeshInstance3D" parent="piezas/plano 4x4_23"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("6_wrodx")
+
+[node name="plano 2x6_23" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0188303, -14.3344)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 2x6_1" type="CollisionShape3D" parent="piezas/plano 2x6_23"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_etwc2")
+
+[node name="Bevel-hq-plate-2x6" type="MeshInstance3D" parent="piezas/plano 2x6_23"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("7_4rv1x")
+
+[node name="bloque 2x2_24" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -13.3243)
+collision_layer = 2
+collision_mask = 7
+
+[node name="Bevel-hq-brick-2x2" type="MeshInstance3D" parent="piezas/bloque 2x2_24"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("2_vr7vi")
+skeleton = NodePath("../../../Inicial")
+
+[node name="colition 2x2_1" type="CollisionShape3D" parent="piezas/bloque 2x2_24"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_1vi4g")
+
+[node name="bloque 2x6_1_24" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -12.3243)
+collision_layer = 2
+collision_mask = 7
+
+[node name="Bevel-hq-brick-2x6" type="MeshInstance3D" parent="piezas/bloque 2x6_1_24"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("1_on117")
+skeleton = NodePath("../../..")
+
+[node name="colition 2x6_1" type="CollisionShape3D" parent="piezas/bloque 2x6_1_24"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_iubyd")
+
+[node name="bloque 2x4_24" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -15.3243)
+collision_layer = 10
+collision_mask = 7
+
+[node name="collition 2x4_1" type="CollisionShape3D" parent="piezas/bloque 2x4_24"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_lqcwd")
+
+[node name="Bevel-hq-brick-2x4" type="MeshInstance3D" parent="piezas/bloque 2x4_24"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("4_4us6y")
+skeleton = NodePath("../../..")
+
+[node name="plano 4x8_24" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -16.6616)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 4x8_1" type="CollisionShape3D" parent="piezas/plano 4x8_24"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_exl3t")
+
+[node name="Bevel-hq-plate-4x8" type="MeshInstance3D" parent="piezas/plano 4x8_24"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("5_j5c12")
+
+[node name="plano 4x4_24" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -18.3242)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 4x4_1" type="CollisionShape3D" parent="piezas/plano 4x4_24"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_h30pj")
+
+[node name="Bevel-hq-plate-4x4" type="MeshInstance3D" parent="piezas/plano 4x4_24"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("6_wrodx")
+
+[node name="plano 2x6_24" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0188303, -14.3344)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 2x6_1" type="CollisionShape3D" parent="piezas/plano 2x6_24"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_etwc2")
+
+[node name="Bevel-hq-plate-2x6" type="MeshInstance3D" parent="piezas/plano 2x6_24"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("7_4rv1x")
+
+[node name="bloque 2x2_25" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -13.3243)
+collision_layer = 2
+collision_mask = 7
+
+[node name="Bevel-hq-brick-2x2" type="MeshInstance3D" parent="piezas/bloque 2x2_25"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("2_vr7vi")
+skeleton = NodePath("../../../Inicial")
+
+[node name="colition 2x2_1" type="CollisionShape3D" parent="piezas/bloque 2x2_25"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_1vi4g")
+
+[node name="bloque 2x6_1_25" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -12.3243)
+collision_layer = 2
+collision_mask = 7
+
+[node name="Bevel-hq-brick-2x6" type="MeshInstance3D" parent="piezas/bloque 2x6_1_25"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("1_on117")
+skeleton = NodePath("../../..")
+
+[node name="colition 2x6_1" type="CollisionShape3D" parent="piezas/bloque 2x6_1_25"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_iubyd")
+
+[node name="bloque 2x4_25" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -15.3243)
+collision_layer = 10
+collision_mask = 7
+
+[node name="collition 2x4_1" type="CollisionShape3D" parent="piezas/bloque 2x4_25"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_lqcwd")
+
+[node name="Bevel-hq-brick-2x4" type="MeshInstance3D" parent="piezas/bloque 2x4_25"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("4_4us6y")
+skeleton = NodePath("../../..")
+
+[node name="plano 4x8_25" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -16.6616)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 4x8_1" type="CollisionShape3D" parent="piezas/plano 4x8_25"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_exl3t")
+
+[node name="Bevel-hq-plate-4x8" type="MeshInstance3D" parent="piezas/plano 4x8_25"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("5_j5c12")
+
+[node name="plano 4x4_25" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -18.3242)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 4x4_1" type="CollisionShape3D" parent="piezas/plano 4x4_25"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_h30pj")
+
+[node name="Bevel-hq-plate-4x4" type="MeshInstance3D" parent="piezas/plano 4x4_25"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("6_wrodx")
+
+[node name="plano 2x6_25" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0188303, -14.3344)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 2x6_1" type="CollisionShape3D" parent="piezas/plano 2x6_25"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_etwc2")
+
+[node name="Bevel-hq-plate-2x6" type="MeshInstance3D" parent="piezas/plano 2x6_25"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("7_4rv1x")
+
+[node name="bloque 2x2_26" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -13.3243)
+collision_layer = 2
+collision_mask = 7
+
+[node name="Bevel-hq-brick-2x2" type="MeshInstance3D" parent="piezas/bloque 2x2_26"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("2_vr7vi")
+skeleton = NodePath("../../../Inicial")
+
+[node name="colition 2x2_1" type="CollisionShape3D" parent="piezas/bloque 2x2_26"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_1vi4g")
+
+[node name="bloque 2x6_1_26" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -12.3243)
+collision_layer = 2
+collision_mask = 7
+
+[node name="Bevel-hq-brick-2x6" type="MeshInstance3D" parent="piezas/bloque 2x6_1_26"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("1_on117")
+skeleton = NodePath("../../..")
+
+[node name="colition 2x6_1" type="CollisionShape3D" parent="piezas/bloque 2x6_1_26"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_iubyd")
+
+[node name="bloque 2x4_26" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -15.3243)
+collision_layer = 10
+collision_mask = 7
+
+[node name="collition 2x4_1" type="CollisionShape3D" parent="piezas/bloque 2x4_26"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_lqcwd")
+
+[node name="Bevel-hq-brick-2x4" type="MeshInstance3D" parent="piezas/bloque 2x4_26"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("4_4us6y")
+skeleton = NodePath("../../..")
+
+[node name="plano 4x8_26" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -16.6616)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 4x8_1" type="CollisionShape3D" parent="piezas/plano 4x8_26"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_exl3t")
+
+[node name="Bevel-hq-plate-4x8" type="MeshInstance3D" parent="piezas/plano 4x8_26"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("5_j5c12")
+
+[node name="plano 4x4_26" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -18.3242)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 4x4_1" type="CollisionShape3D" parent="piezas/plano 4x4_26"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_h30pj")
+
+[node name="Bevel-hq-plate-4x4" type="MeshInstance3D" parent="piezas/plano 4x4_26"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("6_wrodx")
+
+[node name="plano 2x6_26" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0188303, -14.3344)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 2x6_1" type="CollisionShape3D" parent="piezas/plano 2x6_26"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_etwc2")
+
+[node name="Bevel-hq-plate-2x6" type="MeshInstance3D" parent="piezas/plano 2x6_26"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("7_4rv1x")
+
+[node name="bloque 2x2_27" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -13.3243)
+collision_layer = 2
+collision_mask = 7
+
+[node name="Bevel-hq-brick-2x2" type="MeshInstance3D" parent="piezas/bloque 2x2_27"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("2_vr7vi")
+skeleton = NodePath("../../../Inicial")
+
+[node name="colition 2x2_1" type="CollisionShape3D" parent="piezas/bloque 2x2_27"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_1vi4g")
+
+[node name="bloque 2x6_1_27" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -12.3243)
+collision_layer = 2
+collision_mask = 7
+
+[node name="Bevel-hq-brick-2x6" type="MeshInstance3D" parent="piezas/bloque 2x6_1_27"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("1_on117")
+skeleton = NodePath("../../..")
+
+[node name="colition 2x6_1" type="CollisionShape3D" parent="piezas/bloque 2x6_1_27"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_iubyd")
+
+[node name="bloque 2x4_27" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -15.3243)
+collision_layer = 10
+collision_mask = 7
+
+[node name="collition 2x4_1" type="CollisionShape3D" parent="piezas/bloque 2x4_27"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_lqcwd")
+
+[node name="Bevel-hq-brick-2x4" type="MeshInstance3D" parent="piezas/bloque 2x4_27"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("4_4us6y")
+skeleton = NodePath("../../..")
+
+[node name="plano 4x8_27" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -16.6616)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 4x8_1" type="CollisionShape3D" parent="piezas/plano 4x8_27"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_exl3t")
+
+[node name="Bevel-hq-plate-4x8" type="MeshInstance3D" parent="piezas/plano 4x8_27"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("5_j5c12")
+
+[node name="plano 4x4_27" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -18.3242)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 4x4_1" type="CollisionShape3D" parent="piezas/plano 4x4_27"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_h30pj")
+
+[node name="Bevel-hq-plate-4x4" type="MeshInstance3D" parent="piezas/plano 4x4_27"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("6_wrodx")
+
+[node name="plano 2x6_27" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0188303, -14.3344)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 2x6_1" type="CollisionShape3D" parent="piezas/plano 2x6_27"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_etwc2")
+
+[node name="Bevel-hq-plate-2x6" type="MeshInstance3D" parent="piezas/plano 2x6_27"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("7_4rv1x")
+
+[node name="bloque 2x2_28" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -13.3243)
+collision_layer = 2
+collision_mask = 7
+
+[node name="Bevel-hq-brick-2x2" type="MeshInstance3D" parent="piezas/bloque 2x2_28"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("2_vr7vi")
+skeleton = NodePath("../../../Inicial")
+
+[node name="colition 2x2_1" type="CollisionShape3D" parent="piezas/bloque 2x2_28"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_1vi4g")
+
+[node name="bloque 2x6_1_28" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -12.3243)
+collision_layer = 2
+collision_mask = 7
+
+[node name="Bevel-hq-brick-2x6" type="MeshInstance3D" parent="piezas/bloque 2x6_1_28"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("1_on117")
+skeleton = NodePath("../../..")
+
+[node name="colition 2x6_1" type="CollisionShape3D" parent="piezas/bloque 2x6_1_28"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_iubyd")
+
+[node name="bloque 2x4_28" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -15.3243)
+collision_layer = 10
+collision_mask = 7
+
+[node name="collition 2x4_1" type="CollisionShape3D" parent="piezas/bloque 2x4_28"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_lqcwd")
+
+[node name="Bevel-hq-brick-2x4" type="MeshInstance3D" parent="piezas/bloque 2x4_28"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("4_4us6y")
+skeleton = NodePath("../../..")
+
+[node name="plano 4x8_28" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -16.6616)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 4x8_1" type="CollisionShape3D" parent="piezas/plano 4x8_28"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_exl3t")
+
+[node name="Bevel-hq-plate-4x8" type="MeshInstance3D" parent="piezas/plano 4x8_28"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("5_j5c12")
+
+[node name="plano 4x4_28" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -18.3242)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 4x4_1" type="CollisionShape3D" parent="piezas/plano 4x4_28"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_h30pj")
+
+[node name="Bevel-hq-plate-4x4" type="MeshInstance3D" parent="piezas/plano 4x4_28"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("6_wrodx")
+
+[node name="plano 2x6_28" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0188303, -14.3344)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 2x6_1" type="CollisionShape3D" parent="piezas/plano 2x6_28"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_etwc2")
+
+[node name="Bevel-hq-plate-2x6" type="MeshInstance3D" parent="piezas/plano 2x6_28"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("7_4rv1x")
+
+[node name="bloque 2x2_29" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -13.3243)
+collision_layer = 2
+collision_mask = 7
+
+[node name="Bevel-hq-brick-2x2" type="MeshInstance3D" parent="piezas/bloque 2x2_29"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("2_vr7vi")
+skeleton = NodePath("../../../Inicial")
+
+[node name="colition 2x2_1" type="CollisionShape3D" parent="piezas/bloque 2x2_29"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_1vi4g")
+
+[node name="bloque 2x6_1_29" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -12.3243)
+collision_layer = 2
+collision_mask = 7
+
+[node name="Bevel-hq-brick-2x6" type="MeshInstance3D" parent="piezas/bloque 2x6_1_29"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("1_on117")
+skeleton = NodePath("../../..")
+
+[node name="colition 2x6_1" type="CollisionShape3D" parent="piezas/bloque 2x6_1_29"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_iubyd")
+
+[node name="bloque 2x4_29" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -15.3243)
+collision_layer = 10
+collision_mask = 7
+
+[node name="collition 2x4_1" type="CollisionShape3D" parent="piezas/bloque 2x4_29"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_lqcwd")
+
+[node name="Bevel-hq-brick-2x4" type="MeshInstance3D" parent="piezas/bloque 2x4_29"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("4_4us6y")
+skeleton = NodePath("../../..")
+
+[node name="plano 4x8_29" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -16.6616)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 4x8_1" type="CollisionShape3D" parent="piezas/plano 4x8_29"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_exl3t")
+
+[node name="Bevel-hq-plate-4x8" type="MeshInstance3D" parent="piezas/plano 4x8_29"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("5_j5c12")
+
+[node name="plano 4x4_29" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -18.3242)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 4x4_1" type="CollisionShape3D" parent="piezas/plano 4x4_29"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_h30pj")
+
+[node name="Bevel-hq-plate-4x4" type="MeshInstance3D" parent="piezas/plano 4x4_29"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("6_wrodx")
+
+[node name="plano 2x6_29" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0188303, -14.3344)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 2x6_1" type="CollisionShape3D" parent="piezas/plano 2x6_29"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_etwc2")
+
+[node name="Bevel-hq-plate-2x6" type="MeshInstance3D" parent="piezas/plano 2x6_29"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("7_4rv1x")
+
+[node name="bloque 2x2_30" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -13.3243)
+collision_layer = 2
+collision_mask = 7
+
+[node name="Bevel-hq-brick-2x2" type="MeshInstance3D" parent="piezas/bloque 2x2_30"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("2_vr7vi")
+skeleton = NodePath("../../../Inicial")
+
+[node name="colition 2x2_1" type="CollisionShape3D" parent="piezas/bloque 2x2_30"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_1vi4g")
+
+[node name="bloque 2x6_1_30" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -12.3243)
+collision_layer = 2
+collision_mask = 7
+
+[node name="Bevel-hq-brick-2x6" type="MeshInstance3D" parent="piezas/bloque 2x6_1_30"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("1_on117")
+skeleton = NodePath("../../..")
+
+[node name="colition 2x6_1" type="CollisionShape3D" parent="piezas/bloque 2x6_1_30"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_iubyd")
+
+[node name="bloque 2x4_30" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -15.3243)
+collision_layer = 10
+collision_mask = 7
+
+[node name="collition 2x4_1" type="CollisionShape3D" parent="piezas/bloque 2x4_30"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_lqcwd")
+
+[node name="Bevel-hq-brick-2x4" type="MeshInstance3D" parent="piezas/bloque 2x4_30"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("4_4us6y")
+skeleton = NodePath("../../..")
+
+[node name="plano 4x8_30" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -16.6616)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 4x8_1" type="CollisionShape3D" parent="piezas/plano 4x8_30"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_exl3t")
+
+[node name="Bevel-hq-plate-4x8" type="MeshInstance3D" parent="piezas/plano 4x8_30"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("5_j5c12")
+
+[node name="plano 4x4_30" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -18.3242)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 4x4_1" type="CollisionShape3D" parent="piezas/plano 4x4_30"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_h30pj")
+
+[node name="Bevel-hq-plate-4x4" type="MeshInstance3D" parent="piezas/plano 4x4_30"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("6_wrodx")
+
+[node name="plano 2x6_30" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0188303, -14.3344)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 2x6_1" type="CollisionShape3D" parent="piezas/plano 2x6_30"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_etwc2")
+
+[node name="Bevel-hq-plate-2x6" type="MeshInstance3D" parent="piezas/plano 2x6_30"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("7_4rv1x")
+
+[node name="bloque 2x2_31" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -13.3243)
+collision_layer = 2
+collision_mask = 7
+
+[node name="Bevel-hq-brick-2x2" type="MeshInstance3D" parent="piezas/bloque 2x2_31"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("2_vr7vi")
+skeleton = NodePath("../../../Inicial")
+
+[node name="colition 2x2_1" type="CollisionShape3D" parent="piezas/bloque 2x2_31"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_1vi4g")
+
+[node name="bloque 2x6_1_31" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -12.3243)
+collision_layer = 2
+collision_mask = 7
+
+[node name="Bevel-hq-brick-2x6" type="MeshInstance3D" parent="piezas/bloque 2x6_1_31"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("1_on117")
+skeleton = NodePath("../../..")
+
+[node name="colition 2x6_1" type="CollisionShape3D" parent="piezas/bloque 2x6_1_31"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_iubyd")
+
+[node name="bloque 2x4_31" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -15.3243)
+collision_layer = 10
+collision_mask = 7
+
+[node name="collition 2x4_1" type="CollisionShape3D" parent="piezas/bloque 2x4_31"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_lqcwd")
+
+[node name="Bevel-hq-brick-2x4" type="MeshInstance3D" parent="piezas/bloque 2x4_31"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("4_4us6y")
+skeleton = NodePath("../../..")
+
+[node name="plano 4x8_31" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -16.6616)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 4x8_1" type="CollisionShape3D" parent="piezas/plano 4x8_31"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_exl3t")
+
+[node name="Bevel-hq-plate-4x8" type="MeshInstance3D" parent="piezas/plano 4x8_31"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("5_j5c12")
+
+[node name="plano 4x4_31" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -18.3242)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 4x4_1" type="CollisionShape3D" parent="piezas/plano 4x4_31"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_h30pj")
+
+[node name="Bevel-hq-plate-4x4" type="MeshInstance3D" parent="piezas/plano 4x4_31"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("6_wrodx")
+
+[node name="plano 2x6_31" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0188303, -14.3344)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 2x6_1" type="CollisionShape3D" parent="piezas/plano 2x6_31"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_etwc2")
+
+[node name="Bevel-hq-plate-2x6" type="MeshInstance3D" parent="piezas/plano 2x6_31"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("7_4rv1x")
+
+[node name="bloque 2x2_32" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -13.3243)
+collision_layer = 2
+collision_mask = 7
+
+[node name="Bevel-hq-brick-2x2" type="MeshInstance3D" parent="piezas/bloque 2x2_32"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("2_vr7vi")
+skeleton = NodePath("../../../Inicial")
+
+[node name="colition 2x2_1" type="CollisionShape3D" parent="piezas/bloque 2x2_32"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_1vi4g")
+
+[node name="bloque 2x6_1_32" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -12.3243)
+collision_layer = 2
+collision_mask = 7
+
+[node name="Bevel-hq-brick-2x6" type="MeshInstance3D" parent="piezas/bloque 2x6_1_32"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("1_on117")
+skeleton = NodePath("../../..")
+
+[node name="colition 2x6_1" type="CollisionShape3D" parent="piezas/bloque 2x6_1_32"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_iubyd")
+
+[node name="bloque 2x4_32" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -15.3243)
+collision_layer = 10
+collision_mask = 7
+
+[node name="collition 2x4_1" type="CollisionShape3D" parent="piezas/bloque 2x4_32"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_lqcwd")
+
+[node name="Bevel-hq-brick-2x4" type="MeshInstance3D" parent="piezas/bloque 2x4_32"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("4_4us6y")
+skeleton = NodePath("../../..")
+
+[node name="plano 4x8_32" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -16.6616)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 4x8_1" type="CollisionShape3D" parent="piezas/plano 4x8_32"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_exl3t")
+
+[node name="Bevel-hq-plate-4x8" type="MeshInstance3D" parent="piezas/plano 4x8_32"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("5_j5c12")
+
+[node name="plano 4x4_32" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -18.3242)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 4x4_1" type="CollisionShape3D" parent="piezas/plano 4x4_32"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_h30pj")
+
+[node name="Bevel-hq-plate-4x4" type="MeshInstance3D" parent="piezas/plano 4x4_32"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("6_wrodx")
+
+[node name="plano 2x6_32" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0188303, -14.3344)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 2x6_1" type="CollisionShape3D" parent="piezas/plano 2x6_32"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_etwc2")
+
+[node name="Bevel-hq-plate-2x6" type="MeshInstance3D" parent="piezas/plano 2x6_32"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("7_4rv1x")
+
+[node name="bloque 2x2_33" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -13.3243)
+collision_layer = 2
+collision_mask = 7
+
+[node name="Bevel-hq-brick-2x2" type="MeshInstance3D" parent="piezas/bloque 2x2_33"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("2_vr7vi")
+skeleton = NodePath("../../../Inicial")
+
+[node name="colition 2x2_1" type="CollisionShape3D" parent="piezas/bloque 2x2_33"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_1vi4g")
+
+[node name="bloque 2x6_1_33" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -12.3243)
+collision_layer = 2
+collision_mask = 7
+
+[node name="Bevel-hq-brick-2x6" type="MeshInstance3D" parent="piezas/bloque 2x6_1_33"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("1_on117")
+skeleton = NodePath("../../..")
+
+[node name="colition 2x6_1" type="CollisionShape3D" parent="piezas/bloque 2x6_1_33"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_iubyd")
+
+[node name="bloque 2x4_33" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -15.3243)
+collision_layer = 10
+collision_mask = 7
+
+[node name="collition 2x4_1" type="CollisionShape3D" parent="piezas/bloque 2x4_33"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_lqcwd")
+
+[node name="Bevel-hq-brick-2x4" type="MeshInstance3D" parent="piezas/bloque 2x4_33"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("4_4us6y")
+skeleton = NodePath("../../..")
+
+[node name="plano 4x8_33" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -16.6616)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 4x8_1" type="CollisionShape3D" parent="piezas/plano 4x8_33"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_exl3t")
+
+[node name="Bevel-hq-plate-4x8" type="MeshInstance3D" parent="piezas/plano 4x8_33"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("5_j5c12")
+
+[node name="plano 4x4_33" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -18.3242)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 4x4_1" type="CollisionShape3D" parent="piezas/plano 4x4_33"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_h30pj")
+
+[node name="Bevel-hq-plate-4x4" type="MeshInstance3D" parent="piezas/plano 4x4_33"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("6_wrodx")
+
+[node name="plano 2x6_33" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0188303, -14.3344)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 2x6_1" type="CollisionShape3D" parent="piezas/plano 2x6_33"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_etwc2")
+
+[node name="Bevel-hq-plate-2x6" type="MeshInstance3D" parent="piezas/plano 2x6_33"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("7_4rv1x")
+
+[node name="bloque 2x2_34" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -13.3243)
+collision_layer = 2
+collision_mask = 7
+
+[node name="Bevel-hq-brick-2x2" type="MeshInstance3D" parent="piezas/bloque 2x2_34"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("2_vr7vi")
+skeleton = NodePath("../../../Inicial")
+
+[node name="colition 2x2_1" type="CollisionShape3D" parent="piezas/bloque 2x2_34"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_1vi4g")
+
+[node name="bloque 2x6_1_34" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -12.3243)
+collision_layer = 2
+collision_mask = 7
+
+[node name="Bevel-hq-brick-2x6" type="MeshInstance3D" parent="piezas/bloque 2x6_1_34"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("1_on117")
+skeleton = NodePath("../../..")
+
+[node name="colition 2x6_1" type="CollisionShape3D" parent="piezas/bloque 2x6_1_34"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_iubyd")
+
+[node name="bloque 2x4_34" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -15.3243)
+collision_layer = 10
+collision_mask = 7
+
+[node name="collition 2x4_1" type="CollisionShape3D" parent="piezas/bloque 2x4_34"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_lqcwd")
+
+[node name="Bevel-hq-brick-2x4" type="MeshInstance3D" parent="piezas/bloque 2x4_34"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("4_4us6y")
+skeleton = NodePath("../../..")
+
+[node name="plano 4x8_34" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -16.6616)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 4x8_1" type="CollisionShape3D" parent="piezas/plano 4x8_34"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_exl3t")
+
+[node name="Bevel-hq-plate-4x8" type="MeshInstance3D" parent="piezas/plano 4x8_34"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("5_j5c12")
+
+[node name="plano 4x4_34" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -18.3242)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 4x4_1" type="CollisionShape3D" parent="piezas/plano 4x4_34"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_h30pj")
+
+[node name="Bevel-hq-plate-4x4" type="MeshInstance3D" parent="piezas/plano 4x4_34"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("6_wrodx")
+
+[node name="plano 2x6_34" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0188303, -14.3344)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 2x6_1" type="CollisionShape3D" parent="piezas/plano 2x6_34"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_etwc2")
+
+[node name="Bevel-hq-plate-2x6" type="MeshInstance3D" parent="piezas/plano 2x6_34"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("7_4rv1x")
+
+[node name="bloque 2x2_35" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -13.3243)
+collision_layer = 2
+collision_mask = 7
+
+[node name="Bevel-hq-brick-2x2" type="MeshInstance3D" parent="piezas/bloque 2x2_35"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("2_vr7vi")
+skeleton = NodePath("../../../Inicial")
+
+[node name="colition 2x2_1" type="CollisionShape3D" parent="piezas/bloque 2x2_35"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_1vi4g")
+
+[node name="bloque 2x6_1_35" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -12.3243)
+collision_layer = 2
+collision_mask = 7
+
+[node name="Bevel-hq-brick-2x6" type="MeshInstance3D" parent="piezas/bloque 2x6_1_35"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("1_on117")
+skeleton = NodePath("../../..")
+
+[node name="colition 2x6_1" type="CollisionShape3D" parent="piezas/bloque 2x6_1_35"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_iubyd")
+
+[node name="bloque 2x4_35" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -15.3243)
+collision_layer = 10
+collision_mask = 7
+
+[node name="collition 2x4_1" type="CollisionShape3D" parent="piezas/bloque 2x4_35"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_lqcwd")
+
+[node name="Bevel-hq-brick-2x4" type="MeshInstance3D" parent="piezas/bloque 2x4_35"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("4_4us6y")
+skeleton = NodePath("../../..")
+
+[node name="plano 4x8_35" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -16.6616)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 4x8_1" type="CollisionShape3D" parent="piezas/plano 4x8_35"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_exl3t")
+
+[node name="Bevel-hq-plate-4x8" type="MeshInstance3D" parent="piezas/plano 4x8_35"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("5_j5c12")
+
+[node name="plano 4x4_35" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -18.3242)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 4x4_1" type="CollisionShape3D" parent="piezas/plano 4x4_35"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_h30pj")
+
+[node name="Bevel-hq-plate-4x4" type="MeshInstance3D" parent="piezas/plano 4x4_35"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("6_wrodx")
+
+[node name="plano 2x6_35" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0188303, -14.3344)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 2x6_1" type="CollisionShape3D" parent="piezas/plano 2x6_35"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_etwc2")
+
+[node name="Bevel-hq-plate-2x6" type="MeshInstance3D" parent="piezas/plano 2x6_35"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("7_4rv1x")
+
+[node name="bloque 2x2_36" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -13.3243)
+collision_layer = 2
+collision_mask = 7
+
+[node name="Bevel-hq-brick-2x2" type="MeshInstance3D" parent="piezas/bloque 2x2_36"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("2_vr7vi")
+skeleton = NodePath("../../../Inicial")
+
+[node name="colition 2x2_1" type="CollisionShape3D" parent="piezas/bloque 2x2_36"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_1vi4g")
+
+[node name="bloque 2x6_1_36" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -12.3243)
+collision_layer = 2
+collision_mask = 7
+
+[node name="Bevel-hq-brick-2x6" type="MeshInstance3D" parent="piezas/bloque 2x6_1_36"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("1_on117")
+skeleton = NodePath("../../..")
+
+[node name="colition 2x6_1" type="CollisionShape3D" parent="piezas/bloque 2x6_1_36"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_iubyd")
+
+[node name="bloque 2x4_36" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -15.3243)
+collision_layer = 10
+collision_mask = 7
+
+[node name="collition 2x4_1" type="CollisionShape3D" parent="piezas/bloque 2x4_36"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_lqcwd")
+
+[node name="Bevel-hq-brick-2x4" type="MeshInstance3D" parent="piezas/bloque 2x4_36"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("4_4us6y")
+skeleton = NodePath("../../..")
+
+[node name="plano 4x8_36" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -16.6616)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 4x8_1" type="CollisionShape3D" parent="piezas/plano 4x8_36"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_exl3t")
+
+[node name="Bevel-hq-plate-4x8" type="MeshInstance3D" parent="piezas/plano 4x8_36"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("5_j5c12")
+
+[node name="plano 4x4_36" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -18.3242)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 4x4_1" type="CollisionShape3D" parent="piezas/plano 4x4_36"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_h30pj")
+
+[node name="Bevel-hq-plate-4x4" type="MeshInstance3D" parent="piezas/plano 4x4_36"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("6_wrodx")
+
+[node name="plano 2x6_36" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0188303, -14.3344)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 2x6_1" type="CollisionShape3D" parent="piezas/plano 2x6_36"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_etwc2")
+
+[node name="Bevel-hq-plate-2x6" type="MeshInstance3D" parent="piezas/plano 2x6_36"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("7_4rv1x")
+
+[node name="bloque 2x2_37" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -13.3243)
+collision_layer = 2
+collision_mask = 7
+
+[node name="Bevel-hq-brick-2x2" type="MeshInstance3D" parent="piezas/bloque 2x2_37"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("2_vr7vi")
+skeleton = NodePath("../../../Inicial")
+
+[node name="colition 2x2_1" type="CollisionShape3D" parent="piezas/bloque 2x2_37"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_1vi4g")
+
+[node name="bloque 2x6_1_37" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -12.3243)
+collision_layer = 2
+collision_mask = 7
+
+[node name="Bevel-hq-brick-2x6" type="MeshInstance3D" parent="piezas/bloque 2x6_1_37"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("1_on117")
+skeleton = NodePath("../../..")
+
+[node name="colition 2x6_1" type="CollisionShape3D" parent="piezas/bloque 2x6_1_37"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_iubyd")
+
+[node name="bloque 2x4_37" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -15.3243)
+collision_layer = 10
+collision_mask = 7
+
+[node name="collition 2x4_1" type="CollisionShape3D" parent="piezas/bloque 2x4_37"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_lqcwd")
+
+[node name="Bevel-hq-brick-2x4" type="MeshInstance3D" parent="piezas/bloque 2x4_37"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("4_4us6y")
+skeleton = NodePath("../../..")
+
+[node name="plano 4x8_37" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -16.6616)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 4x8_1" type="CollisionShape3D" parent="piezas/plano 4x8_37"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_exl3t")
+
+[node name="Bevel-hq-plate-4x8" type="MeshInstance3D" parent="piezas/plano 4x8_37"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("5_j5c12")
+
+[node name="plano 4x4_37" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -18.3242)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 4x4_1" type="CollisionShape3D" parent="piezas/plano 4x4_37"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_h30pj")
+
+[node name="Bevel-hq-plate-4x4" type="MeshInstance3D" parent="piezas/plano 4x4_37"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("6_wrodx")
+
+[node name="plano 2x6_37" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0188303, -14.3344)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 2x6_1" type="CollisionShape3D" parent="piezas/plano 2x6_37"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_etwc2")
+
+[node name="Bevel-hq-plate-2x6" type="MeshInstance3D" parent="piezas/plano 2x6_37"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("7_4rv1x")
+
+[node name="bloque 2x2_38" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -13.3243)
+collision_layer = 2
+collision_mask = 7
+
+[node name="Bevel-hq-brick-2x2" type="MeshInstance3D" parent="piezas/bloque 2x2_38"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("2_vr7vi")
+skeleton = NodePath("../../../Inicial")
+
+[node name="colition 2x2_1" type="CollisionShape3D" parent="piezas/bloque 2x2_38"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_1vi4g")
+
+[node name="bloque 2x6_1_38" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -12.3243)
+collision_layer = 2
+collision_mask = 7
+
+[node name="Bevel-hq-brick-2x6" type="MeshInstance3D" parent="piezas/bloque 2x6_1_38"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("1_on117")
+skeleton = NodePath("../../..")
+
+[node name="colition 2x6_1" type="CollisionShape3D" parent="piezas/bloque 2x6_1_38"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_iubyd")
+
+[node name="bloque 2x4_38" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -15.3243)
+collision_layer = 10
+collision_mask = 7
+
+[node name="collition 2x4_1" type="CollisionShape3D" parent="piezas/bloque 2x4_38"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_lqcwd")
+
+[node name="Bevel-hq-brick-2x4" type="MeshInstance3D" parent="piezas/bloque 2x4_38"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("4_4us6y")
+skeleton = NodePath("../../..")
+
+[node name="plano 4x8_38" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -16.6616)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 4x8_1" type="CollisionShape3D" parent="piezas/plano 4x8_38"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_exl3t")
+
+[node name="Bevel-hq-plate-4x8" type="MeshInstance3D" parent="piezas/plano 4x8_38"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("5_j5c12")
+
+[node name="plano 4x4_38" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -18.3242)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 4x4_1" type="CollisionShape3D" parent="piezas/plano 4x4_38"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_h30pj")
+
+[node name="Bevel-hq-plate-4x4" type="MeshInstance3D" parent="piezas/plano 4x4_38"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("6_wrodx")
+
+[node name="plano 2x6_38" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0188303, -14.3344)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 2x6_1" type="CollisionShape3D" parent="piezas/plano 2x6_38"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_etwc2")
+
+[node name="Bevel-hq-plate-2x6" type="MeshInstance3D" parent="piezas/plano 2x6_38"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("7_4rv1x")
+
+[node name="bloque 2x2_39" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -13.3243)
+collision_layer = 2
+collision_mask = 7
+
+[node name="Bevel-hq-brick-2x2" type="MeshInstance3D" parent="piezas/bloque 2x2_39"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("2_vr7vi")
+skeleton = NodePath("../../../Inicial")
+
+[node name="colition 2x2_1" type="CollisionShape3D" parent="piezas/bloque 2x2_39"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_1vi4g")
+
+[node name="bloque 2x6_1_39" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -12.3243)
+collision_layer = 2
+collision_mask = 7
+
+[node name="Bevel-hq-brick-2x6" type="MeshInstance3D" parent="piezas/bloque 2x6_1_39"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("1_on117")
+skeleton = NodePath("../../..")
+
+[node name="colition 2x6_1" type="CollisionShape3D" parent="piezas/bloque 2x6_1_39"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_iubyd")
+
+[node name="bloque 2x4_39" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -15.3243)
+collision_layer = 10
+collision_mask = 7
+
+[node name="collition 2x4_1" type="CollisionShape3D" parent="piezas/bloque 2x4_39"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_lqcwd")
+
+[node name="Bevel-hq-brick-2x4" type="MeshInstance3D" parent="piezas/bloque 2x4_39"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("4_4us6y")
+skeleton = NodePath("../../..")
+
+[node name="plano 4x8_39" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -16.6616)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 4x8_1" type="CollisionShape3D" parent="piezas/plano 4x8_39"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_exl3t")
+
+[node name="Bevel-hq-plate-4x8" type="MeshInstance3D" parent="piezas/plano 4x8_39"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("5_j5c12")
+
+[node name="plano 4x4_39" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -18.3242)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 4x4_1" type="CollisionShape3D" parent="piezas/plano 4x4_39"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_h30pj")
+
+[node name="Bevel-hq-plate-4x4" type="MeshInstance3D" parent="piezas/plano 4x4_39"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("6_wrodx")
+
+[node name="plano 2x6_39" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0188303, -14.3344)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 2x6_1" type="CollisionShape3D" parent="piezas/plano 2x6_39"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_etwc2")
+
+[node name="Bevel-hq-plate-2x6" type="MeshInstance3D" parent="piezas/plano 2x6_39"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("7_4rv1x")
+
+[node name="bloque 2x2_40" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -13.3243)
+collision_layer = 2
+collision_mask = 7
+
+[node name="Bevel-hq-brick-2x2" type="MeshInstance3D" parent="piezas/bloque 2x2_40"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("2_vr7vi")
+skeleton = NodePath("../../../Inicial")
+
+[node name="colition 2x2_1" type="CollisionShape3D" parent="piezas/bloque 2x2_40"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_1vi4g")
+
+[node name="bloque 2x6_1_40" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -12.3243)
+collision_layer = 2
+collision_mask = 7
+
+[node name="Bevel-hq-brick-2x6" type="MeshInstance3D" parent="piezas/bloque 2x6_1_40"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("1_on117")
+skeleton = NodePath("../../..")
+
+[node name="colition 2x6_1" type="CollisionShape3D" parent="piezas/bloque 2x6_1_40"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_iubyd")
+
+[node name="bloque 2x4_40" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -15.3243)
+collision_layer = 10
+collision_mask = 7
+
+[node name="collition 2x4_1" type="CollisionShape3D" parent="piezas/bloque 2x4_40"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_lqcwd")
+
+[node name="Bevel-hq-brick-2x4" type="MeshInstance3D" parent="piezas/bloque 2x4_40"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("4_4us6y")
+skeleton = NodePath("../../..")
+
+[node name="plano 4x8_40" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -16.6616)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 4x8_1" type="CollisionShape3D" parent="piezas/plano 4x8_40"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_exl3t")
+
+[node name="Bevel-hq-plate-4x8" type="MeshInstance3D" parent="piezas/plano 4x8_40"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("5_j5c12")
+
+[node name="plano 4x4_40" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -18.3242)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 4x4_1" type="CollisionShape3D" parent="piezas/plano 4x4_40"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_h30pj")
+
+[node name="Bevel-hq-plate-4x4" type="MeshInstance3D" parent="piezas/plano 4x4_40"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("6_wrodx")
+
+[node name="plano 2x6_40" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0188303, -14.3344)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 2x6_1" type="CollisionShape3D" parent="piezas/plano 2x6_40"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_etwc2")
+
+[node name="Bevel-hq-plate-2x6" type="MeshInstance3D" parent="piezas/plano 2x6_40"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("7_4rv1x")
+
+[node name="bloque 2x2_41" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -13.3243)
+collision_layer = 2
+collision_mask = 7
+
+[node name="Bevel-hq-brick-2x2" type="MeshInstance3D" parent="piezas/bloque 2x2_41"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("2_vr7vi")
+skeleton = NodePath("../../../Inicial")
+
+[node name="colition 2x2_1" type="CollisionShape3D" parent="piezas/bloque 2x2_41"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_1vi4g")
+
+[node name="bloque 2x6_1_41" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -12.3243)
+collision_layer = 2
+collision_mask = 7
+
+[node name="Bevel-hq-brick-2x6" type="MeshInstance3D" parent="piezas/bloque 2x6_1_41"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("1_on117")
+skeleton = NodePath("../../..")
+
+[node name="colition 2x6_1" type="CollisionShape3D" parent="piezas/bloque 2x6_1_41"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_iubyd")
+
+[node name="bloque 2x4_41" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -15.3243)
+collision_layer = 10
+collision_mask = 7
+
+[node name="collition 2x4_1" type="CollisionShape3D" parent="piezas/bloque 2x4_41"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_lqcwd")
+
+[node name="Bevel-hq-brick-2x4" type="MeshInstance3D" parent="piezas/bloque 2x4_41"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("4_4us6y")
+skeleton = NodePath("../../..")
+
+[node name="plano 4x8_41" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -16.6616)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 4x8_1" type="CollisionShape3D" parent="piezas/plano 4x8_41"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_exl3t")
+
+[node name="Bevel-hq-plate-4x8" type="MeshInstance3D" parent="piezas/plano 4x8_41"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("5_j5c12")
+
+[node name="plano 4x4_41" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -18.3242)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 4x4_1" type="CollisionShape3D" parent="piezas/plano 4x4_41"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_h30pj")
+
+[node name="Bevel-hq-plate-4x4" type="MeshInstance3D" parent="piezas/plano 4x4_41"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("6_wrodx")
+
+[node name="plano 2x6_41" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0188303, -14.3344)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 2x6_1" type="CollisionShape3D" parent="piezas/plano 2x6_41"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_etwc2")
+
+[node name="Bevel-hq-plate-2x6" type="MeshInstance3D" parent="piezas/plano 2x6_41"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("7_4rv1x")
+
+[node name="bloque 2x2_42" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -13.3243)
+collision_layer = 2
+collision_mask = 7
+
+[node name="Bevel-hq-brick-2x2" type="MeshInstance3D" parent="piezas/bloque 2x2_42"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("2_vr7vi")
+skeleton = NodePath("../../../Inicial")
+
+[node name="colition 2x2_1" type="CollisionShape3D" parent="piezas/bloque 2x2_42"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_1vi4g")
+
+[node name="bloque 2x6_1_42" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -12.3243)
+collision_layer = 2
+collision_mask = 7
+
+[node name="Bevel-hq-brick-2x6" type="MeshInstance3D" parent="piezas/bloque 2x6_1_42"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("1_on117")
+skeleton = NodePath("../../..")
+
+[node name="colition 2x6_1" type="CollisionShape3D" parent="piezas/bloque 2x6_1_42"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_iubyd")
+
+[node name="bloque 2x4_42" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -15.3243)
+collision_layer = 10
+collision_mask = 7
+
+[node name="collition 2x4_1" type="CollisionShape3D" parent="piezas/bloque 2x4_42"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_lqcwd")
+
+[node name="Bevel-hq-brick-2x4" type="MeshInstance3D" parent="piezas/bloque 2x4_42"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("4_4us6y")
+skeleton = NodePath("../../..")
+
+[node name="plano 4x8_42" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -16.6616)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 4x8_1" type="CollisionShape3D" parent="piezas/plano 4x8_42"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_exl3t")
+
+[node name="Bevel-hq-plate-4x8" type="MeshInstance3D" parent="piezas/plano 4x8_42"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("5_j5c12")
+
+[node name="plano 4x4_42" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -18.3242)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 4x4_1" type="CollisionShape3D" parent="piezas/plano 4x4_42"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_h30pj")
+
+[node name="Bevel-hq-plate-4x4" type="MeshInstance3D" parent="piezas/plano 4x4_42"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("6_wrodx")
+
+[node name="plano 2x6_42" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0188303, -14.3344)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 2x6_1" type="CollisionShape3D" parent="piezas/plano 2x6_42"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_etwc2")
+
+[node name="Bevel-hq-plate-2x6" type="MeshInstance3D" parent="piezas/plano 2x6_42"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("7_4rv1x")
+
+[node name="bloque 2x2_43" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -13.3243)
+collision_layer = 2
+collision_mask = 7
+
+[node name="Bevel-hq-brick-2x2" type="MeshInstance3D" parent="piezas/bloque 2x2_43"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("2_vr7vi")
+skeleton = NodePath("../../../Inicial")
+
+[node name="colition 2x2_1" type="CollisionShape3D" parent="piezas/bloque 2x2_43"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_1vi4g")
+
+[node name="bloque 2x6_1_43" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -12.3243)
+collision_layer = 2
+collision_mask = 7
+
+[node name="Bevel-hq-brick-2x6" type="MeshInstance3D" parent="piezas/bloque 2x6_1_43"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("1_on117")
+skeleton = NodePath("../../..")
+
+[node name="colition 2x6_1" type="CollisionShape3D" parent="piezas/bloque 2x6_1_43"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_iubyd")
+
+[node name="bloque 2x4_43" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -15.3243)
+collision_layer = 10
+collision_mask = 7
+
+[node name="collition 2x4_1" type="CollisionShape3D" parent="piezas/bloque 2x4_43"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_lqcwd")
+
+[node name="Bevel-hq-brick-2x4" type="MeshInstance3D" parent="piezas/bloque 2x4_43"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("4_4us6y")
+skeleton = NodePath("../../..")
+
+[node name="plano 4x8_43" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -16.6616)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 4x8_1" type="CollisionShape3D" parent="piezas/plano 4x8_43"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_exl3t")
+
+[node name="Bevel-hq-plate-4x8" type="MeshInstance3D" parent="piezas/plano 4x8_43"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("5_j5c12")
+
+[node name="plano 4x4_43" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -18.3242)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 4x4_1" type="CollisionShape3D" parent="piezas/plano 4x4_43"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_h30pj")
+
+[node name="Bevel-hq-plate-4x4" type="MeshInstance3D" parent="piezas/plano 4x4_43"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("6_wrodx")
+
+[node name="plano 2x6_43" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0188303, -14.3344)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 2x6_1" type="CollisionShape3D" parent="piezas/plano 2x6_43"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_etwc2")
+
+[node name="Bevel-hq-plate-2x6" type="MeshInstance3D" parent="piezas/plano 2x6_43"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("7_4rv1x")
+
+[node name="bloque 2x2_44" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -13.3243)
+collision_layer = 2
+collision_mask = 7
+
+[node name="Bevel-hq-brick-2x2" type="MeshInstance3D" parent="piezas/bloque 2x2_44"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("2_vr7vi")
+skeleton = NodePath("../../../Inicial")
+
+[node name="colition 2x2_1" type="CollisionShape3D" parent="piezas/bloque 2x2_44"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_1vi4g")
+
+[node name="bloque 2x6_1_44" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -12.3243)
+collision_layer = 2
+collision_mask = 7
+
+[node name="Bevel-hq-brick-2x6" type="MeshInstance3D" parent="piezas/bloque 2x6_1_44"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("1_on117")
+skeleton = NodePath("../../..")
+
+[node name="colition 2x6_1" type="CollisionShape3D" parent="piezas/bloque 2x6_1_44"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_iubyd")
+
+[node name="bloque 2x4_44" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -15.3243)
+collision_layer = 10
+collision_mask = 7
+
+[node name="collition 2x4_1" type="CollisionShape3D" parent="piezas/bloque 2x4_44"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_lqcwd")
+
+[node name="Bevel-hq-brick-2x4" type="MeshInstance3D" parent="piezas/bloque 2x4_44"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("4_4us6y")
+skeleton = NodePath("../../..")
+
+[node name="plano 4x8_44" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -16.6616)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 4x8_1" type="CollisionShape3D" parent="piezas/plano 4x8_44"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_exl3t")
+
+[node name="Bevel-hq-plate-4x8" type="MeshInstance3D" parent="piezas/plano 4x8_44"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("5_j5c12")
+
+[node name="plano 4x4_44" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -18.3242)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 4x4_1" type="CollisionShape3D" parent="piezas/plano 4x4_44"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_h30pj")
+
+[node name="Bevel-hq-plate-4x4" type="MeshInstance3D" parent="piezas/plano 4x4_44"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("6_wrodx")
+
+[node name="plano 2x6_44" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0188303, -14.3344)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 2x6_1" type="CollisionShape3D" parent="piezas/plano 2x6_44"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_etwc2")
+
+[node name="Bevel-hq-plate-2x6" type="MeshInstance3D" parent="piezas/plano 2x6_44"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("7_4rv1x")
+
+[node name="bloque 2x2_45" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -13.3243)
+collision_layer = 2
+collision_mask = 7
+
+[node name="Bevel-hq-brick-2x2" type="MeshInstance3D" parent="piezas/bloque 2x2_45"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("2_vr7vi")
+skeleton = NodePath("../../../Inicial")
+
+[node name="colition 2x2_1" type="CollisionShape3D" parent="piezas/bloque 2x2_45"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_1vi4g")
+
+[node name="bloque 2x6_1_45" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -12.3243)
+collision_layer = 2
+collision_mask = 7
+
+[node name="Bevel-hq-brick-2x6" type="MeshInstance3D" parent="piezas/bloque 2x6_1_45"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("1_on117")
+skeleton = NodePath("../../..")
+
+[node name="colition 2x6_1" type="CollisionShape3D" parent="piezas/bloque 2x6_1_45"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_iubyd")
+
+[node name="bloque 2x4_45" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -15.3243)
+collision_layer = 10
+collision_mask = 7
+
+[node name="collition 2x4_1" type="CollisionShape3D" parent="piezas/bloque 2x4_45"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_lqcwd")
+
+[node name="Bevel-hq-brick-2x4" type="MeshInstance3D" parent="piezas/bloque 2x4_45"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("4_4us6y")
+skeleton = NodePath("../../..")
+
+[node name="plano 4x8_45" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -16.6616)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 4x8_1" type="CollisionShape3D" parent="piezas/plano 4x8_45"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_exl3t")
+
+[node name="Bevel-hq-plate-4x8" type="MeshInstance3D" parent="piezas/plano 4x8_45"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("5_j5c12")
+
+[node name="plano 4x4_45" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -18.3242)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 4x4_1" type="CollisionShape3D" parent="piezas/plano 4x4_45"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_h30pj")
+
+[node name="Bevel-hq-plate-4x4" type="MeshInstance3D" parent="piezas/plano 4x4_45"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("6_wrodx")
+
+[node name="plano 2x6_45" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0188303, -14.3344)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 2x6_1" type="CollisionShape3D" parent="piezas/plano 2x6_45"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_etwc2")
+
+[node name="Bevel-hq-plate-2x6" type="MeshInstance3D" parent="piezas/plano 2x6_45"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("7_4rv1x")
+
+[node name="bloque 2x2_46" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -13.3243)
+collision_layer = 2
+collision_mask = 7
+
+[node name="Bevel-hq-brick-2x2" type="MeshInstance3D" parent="piezas/bloque 2x2_46"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("2_vr7vi")
+skeleton = NodePath("../../../Inicial")
+
+[node name="colition 2x2_1" type="CollisionShape3D" parent="piezas/bloque 2x2_46"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_1vi4g")
+
+[node name="bloque 2x6_1_46" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -12.3243)
+collision_layer = 2
+collision_mask = 7
+
+[node name="Bevel-hq-brick-2x6" type="MeshInstance3D" parent="piezas/bloque 2x6_1_46"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("1_on117")
+skeleton = NodePath("../../..")
+
+[node name="colition 2x6_1" type="CollisionShape3D" parent="piezas/bloque 2x6_1_46"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_iubyd")
+
+[node name="bloque 2x4_46" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -15.3243)
+collision_layer = 10
+collision_mask = 7
+
+[node name="collition 2x4_1" type="CollisionShape3D" parent="piezas/bloque 2x4_46"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_lqcwd")
+
+[node name="Bevel-hq-brick-2x4" type="MeshInstance3D" parent="piezas/bloque 2x4_46"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("4_4us6y")
+skeleton = NodePath("../../..")
+
+[node name="plano 4x8_46" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -16.6616)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 4x8_1" type="CollisionShape3D" parent="piezas/plano 4x8_46"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_exl3t")
+
+[node name="Bevel-hq-plate-4x8" type="MeshInstance3D" parent="piezas/plano 4x8_46"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("5_j5c12")
+
+[node name="plano 4x4_46" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -18.3242)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 4x4_1" type="CollisionShape3D" parent="piezas/plano 4x4_46"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_h30pj")
+
+[node name="Bevel-hq-plate-4x4" type="MeshInstance3D" parent="piezas/plano 4x4_46"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("6_wrodx")
+
+[node name="plano 2x6_46" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0188303, -14.3344)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 2x6_1" type="CollisionShape3D" parent="piezas/plano 2x6_46"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_etwc2")
+
+[node name="Bevel-hq-plate-2x6" type="MeshInstance3D" parent="piezas/plano 2x6_46"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("7_4rv1x")
+
+[node name="bloque 2x2_47" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -13.3243)
+collision_layer = 2
+collision_mask = 7
+
+[node name="Bevel-hq-brick-2x2" type="MeshInstance3D" parent="piezas/bloque 2x2_47"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("2_vr7vi")
+skeleton = NodePath("../../../Inicial")
+
+[node name="colition 2x2_1" type="CollisionShape3D" parent="piezas/bloque 2x2_47"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_1vi4g")
+
+[node name="bloque 2x6_1_47" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -12.3243)
+collision_layer = 2
+collision_mask = 7
+
+[node name="Bevel-hq-brick-2x6" type="MeshInstance3D" parent="piezas/bloque 2x6_1_47"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("1_on117")
+skeleton = NodePath("../../..")
+
+[node name="colition 2x6_1" type="CollisionShape3D" parent="piezas/bloque 2x6_1_47"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_iubyd")
+
+[node name="bloque 2x4_47" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -15.3243)
+collision_layer = 10
+collision_mask = 7
+
+[node name="collition 2x4_1" type="CollisionShape3D" parent="piezas/bloque 2x4_47"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_lqcwd")
+
+[node name="Bevel-hq-brick-2x4" type="MeshInstance3D" parent="piezas/bloque 2x4_47"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("4_4us6y")
+skeleton = NodePath("../../..")
+
+[node name="plano 4x8_47" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -16.6616)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 4x8_1" type="CollisionShape3D" parent="piezas/plano 4x8_47"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_exl3t")
+
+[node name="Bevel-hq-plate-4x8" type="MeshInstance3D" parent="piezas/plano 4x8_47"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("5_j5c12")
+
+[node name="plano 4x4_47" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -18.3242)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 4x4_1" type="CollisionShape3D" parent="piezas/plano 4x4_47"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_h30pj")
+
+[node name="Bevel-hq-plate-4x4" type="MeshInstance3D" parent="piezas/plano 4x4_47"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("6_wrodx")
+
+[node name="plano 2x6_47" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0188303, -14.3344)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 2x6_1" type="CollisionShape3D" parent="piezas/plano 2x6_47"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_etwc2")
+
+[node name="Bevel-hq-plate-2x6" type="MeshInstance3D" parent="piezas/plano 2x6_47"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("7_4rv1x")
+
+[node name="bloque 2x2_48" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -13.3243)
+collision_layer = 2
+collision_mask = 7
+
+[node name="Bevel-hq-brick-2x2" type="MeshInstance3D" parent="piezas/bloque 2x2_48"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("2_vr7vi")
+skeleton = NodePath("../../../Inicial")
+
+[node name="colition 2x2_1" type="CollisionShape3D" parent="piezas/bloque 2x2_48"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_1vi4g")
+
+[node name="bloque 2x6_1_48" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -12.3243)
+collision_layer = 2
+collision_mask = 7
+
+[node name="Bevel-hq-brick-2x6" type="MeshInstance3D" parent="piezas/bloque 2x6_1_48"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("1_on117")
+skeleton = NodePath("../../..")
+
+[node name="colition 2x6_1" type="CollisionShape3D" parent="piezas/bloque 2x6_1_48"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_iubyd")
+
+[node name="bloque 2x4_48" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -15.3243)
+collision_layer = 10
+collision_mask = 7
+
+[node name="collition 2x4_1" type="CollisionShape3D" parent="piezas/bloque 2x4_48"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_lqcwd")
+
+[node name="Bevel-hq-brick-2x4" type="MeshInstance3D" parent="piezas/bloque 2x4_48"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("4_4us6y")
+skeleton = NodePath("../../..")
+
+[node name="plano 4x8_48" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -16.6616)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 4x8_1" type="CollisionShape3D" parent="piezas/plano 4x8_48"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_exl3t")
+
+[node name="Bevel-hq-plate-4x8" type="MeshInstance3D" parent="piezas/plano 4x8_48"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("5_j5c12")
+
+[node name="plano 4x4_48" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -18.3242)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 4x4_1" type="CollisionShape3D" parent="piezas/plano 4x4_48"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_h30pj")
+
+[node name="Bevel-hq-plate-4x4" type="MeshInstance3D" parent="piezas/plano 4x4_48"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("6_wrodx")
+
+[node name="plano 2x6_48" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0188303, -14.3344)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 2x6_1" type="CollisionShape3D" parent="piezas/plano 2x6_48"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_etwc2")
+
+[node name="Bevel-hq-plate-2x6" type="MeshInstance3D" parent="piezas/plano 2x6_48"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("7_4rv1x")
+
+[node name="bloque 2x2_49" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -13.3243)
+collision_layer = 2
+collision_mask = 7
+
+[node name="Bevel-hq-brick-2x2" type="MeshInstance3D" parent="piezas/bloque 2x2_49"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("2_vr7vi")
+skeleton = NodePath("../../../Inicial")
+
+[node name="colition 2x2_1" type="CollisionShape3D" parent="piezas/bloque 2x2_49"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_1vi4g")
+
+[node name="bloque 2x6_1_49" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -12.3243)
+collision_layer = 2
+collision_mask = 7
+
+[node name="Bevel-hq-brick-2x6" type="MeshInstance3D" parent="piezas/bloque 2x6_1_49"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("1_on117")
+skeleton = NodePath("../../..")
+
+[node name="colition 2x6_1" type="CollisionShape3D" parent="piezas/bloque 2x6_1_49"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_iubyd")
+
+[node name="bloque 2x4_49" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -15.3243)
+collision_layer = 10
+collision_mask = 7
+
+[node name="collition 2x4_1" type="CollisionShape3D" parent="piezas/bloque 2x4_49"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_lqcwd")
+
+[node name="Bevel-hq-brick-2x4" type="MeshInstance3D" parent="piezas/bloque 2x4_49"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("4_4us6y")
+skeleton = NodePath("../../..")
+
+[node name="plano 4x8_49" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -16.6616)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 4x8_1" type="CollisionShape3D" parent="piezas/plano 4x8_49"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_exl3t")
+
+[node name="Bevel-hq-plate-4x8" type="MeshInstance3D" parent="piezas/plano 4x8_49"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("5_j5c12")
+
+[node name="plano 4x4_49" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -18.3242)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 4x4_1" type="CollisionShape3D" parent="piezas/plano 4x4_49"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_h30pj")
+
+[node name="Bevel-hq-plate-4x4" type="MeshInstance3D" parent="piezas/plano 4x4_49"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("6_wrodx")
+
+[node name="plano 2x6_49" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0188303, -14.3344)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 2x6_1" type="CollisionShape3D" parent="piezas/plano 2x6_49"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_etwc2")
+
+[node name="Bevel-hq-plate-2x6" type="MeshInstance3D" parent="piezas/plano 2x6_49"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("7_4rv1x")
+
+[node name="bloque 2x2_50" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -13.3243)
+collision_layer = 2
+collision_mask = 7
+
+[node name="Bevel-hq-brick-2x2" type="MeshInstance3D" parent="piezas/bloque 2x2_50"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("2_vr7vi")
+skeleton = NodePath("../../../Inicial")
+
+[node name="colition 2x2_1" type="CollisionShape3D" parent="piezas/bloque 2x2_50"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_1vi4g")
+
+[node name="bloque 2x6_1_50" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -12.3243)
+collision_layer = 2
+collision_mask = 7
+
+[node name="Bevel-hq-brick-2x6" type="MeshInstance3D" parent="piezas/bloque 2x6_1_50"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("1_on117")
+skeleton = NodePath("../../..")
+
+[node name="colition 2x6_1" type="CollisionShape3D" parent="piezas/bloque 2x6_1_50"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_iubyd")
+
+[node name="bloque 2x4_50" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -15.3243)
+collision_layer = 10
+collision_mask = 7
+
+[node name="collition 2x4_1" type="CollisionShape3D" parent="piezas/bloque 2x4_50"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_lqcwd")
+
+[node name="Bevel-hq-brick-2x4" type="MeshInstance3D" parent="piezas/bloque 2x4_50"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("4_4us6y")
+skeleton = NodePath("../../..")
+
+[node name="plano 4x8_50" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -16.6616)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 4x8_1" type="CollisionShape3D" parent="piezas/plano 4x8_50"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_exl3t")
+
+[node name="Bevel-hq-plate-4x8" type="MeshInstance3D" parent="piezas/plano 4x8_50"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("5_j5c12")
+
+[node name="plano 4x4_50" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -18.3242)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 4x4_1" type="CollisionShape3D" parent="piezas/plano 4x4_50"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_h30pj")
+
+[node name="Bevel-hq-plate-4x4" type="MeshInstance3D" parent="piezas/plano 4x4_50"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("6_wrodx")
+
+[node name="plano 2x6_50" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0188303, -14.3344)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 2x6_1" type="CollisionShape3D" parent="piezas/plano 2x6_50"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_etwc2")
+
+[node name="Bevel-hq-plate-2x6" type="MeshInstance3D" parent="piezas/plano 2x6_50"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("7_4rv1x")
+
+[node name="bloque 2x2_51" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -13.3243)
+collision_layer = 2
+collision_mask = 7
+
+[node name="Bevel-hq-brick-2x2" type="MeshInstance3D" parent="piezas/bloque 2x2_51"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("2_vr7vi")
+skeleton = NodePath("../../../Inicial")
+
+[node name="colition 2x2_1" type="CollisionShape3D" parent="piezas/bloque 2x2_51"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_1vi4g")
+
+[node name="bloque 2x6_1_51" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -12.3243)
+collision_layer = 2
+collision_mask = 7
+
+[node name="Bevel-hq-brick-2x6" type="MeshInstance3D" parent="piezas/bloque 2x6_1_51"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("1_on117")
+skeleton = NodePath("../../..")
+
+[node name="colition 2x6_1" type="CollisionShape3D" parent="piezas/bloque 2x6_1_51"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_iubyd")
+
+[node name="bloque 2x4_51" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -15.3243)
+collision_layer = 10
+collision_mask = 7
+
+[node name="collition 2x4_1" type="CollisionShape3D" parent="piezas/bloque 2x4_51"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_lqcwd")
+
+[node name="Bevel-hq-brick-2x4" type="MeshInstance3D" parent="piezas/bloque 2x4_51"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("4_4us6y")
+skeleton = NodePath("../../..")
+
+[node name="plano 4x8_51" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -16.6616)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 4x8_1" type="CollisionShape3D" parent="piezas/plano 4x8_51"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_exl3t")
+
+[node name="Bevel-hq-plate-4x8" type="MeshInstance3D" parent="piezas/plano 4x8_51"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("5_j5c12")
+
+[node name="plano 4x4_51" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -18.3242)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 4x4_1" type="CollisionShape3D" parent="piezas/plano 4x4_51"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_h30pj")
+
+[node name="Bevel-hq-plate-4x4" type="MeshInstance3D" parent="piezas/plano 4x4_51"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("6_wrodx")
+
+[node name="plano 2x6_51" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0188303, -14.3344)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 2x6_1" type="CollisionShape3D" parent="piezas/plano 2x6_51"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_etwc2")
+
+[node name="Bevel-hq-plate-2x6" type="MeshInstance3D" parent="piezas/plano 2x6_51"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("7_4rv1x")
+
+[node name="bloque 2x2_52" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -13.3243)
+collision_layer = 2
+collision_mask = 7
+
+[node name="Bevel-hq-brick-2x2" type="MeshInstance3D" parent="piezas/bloque 2x2_52"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("2_vr7vi")
+skeleton = NodePath("../../../Inicial")
+
+[node name="colition 2x2_1" type="CollisionShape3D" parent="piezas/bloque 2x2_52"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_1vi4g")
+
+[node name="bloque 2x6_1_52" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -12.3243)
+collision_layer = 2
+collision_mask = 7
+
+[node name="Bevel-hq-brick-2x6" type="MeshInstance3D" parent="piezas/bloque 2x6_1_52"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("1_on117")
+skeleton = NodePath("../../..")
+
+[node name="colition 2x6_1" type="CollisionShape3D" parent="piezas/bloque 2x6_1_52"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_iubyd")
+
+[node name="bloque 2x4_52" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -15.3243)
+collision_layer = 10
+collision_mask = 7
+
+[node name="collition 2x4_1" type="CollisionShape3D" parent="piezas/bloque 2x4_52"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_lqcwd")
+
+[node name="Bevel-hq-brick-2x4" type="MeshInstance3D" parent="piezas/bloque 2x4_52"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("4_4us6y")
+skeleton = NodePath("../../..")
+
+[node name="plano 4x8_52" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -16.6616)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 4x8_1" type="CollisionShape3D" parent="piezas/plano 4x8_52"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_exl3t")
+
+[node name="Bevel-hq-plate-4x8" type="MeshInstance3D" parent="piezas/plano 4x8_52"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("5_j5c12")
+
+[node name="plano 4x4_52" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -18.3242)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 4x4_1" type="CollisionShape3D" parent="piezas/plano 4x4_52"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_h30pj")
+
+[node name="Bevel-hq-plate-4x4" type="MeshInstance3D" parent="piezas/plano 4x4_52"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("6_wrodx")
+
+[node name="plano 2x6_52" type="RigidBody3D" parent="piezas"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0188303, -14.3344)
+collision_layer = 10
+collision_mask = 23
+
+[node name="collition pla 2x6_1" type="CollisionShape3D" parent="piezas/plano 2x6_52"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.125, 0)
+shape = SubResource("BoxShape3D_etwc2")
+
+[node name="Bevel-hq-plate-2x6" type="MeshInstance3D" parent="piezas/plano 2x6_52"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+mesh = ExtResource("7_4rv1x")
+
+[node name="Suelo de agua" type="StaticBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -5.57045)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Suelo de agua"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.66704, -0.1, 44.1131)
+shape = SubResource("BoxShape3D_vr7vi")
+
+[node name="agua" type="MeshInstance3D" parent="Suelo de agua"]
+transform = Transform3D(20.4077, 0, 0, 0, 1, 0, 0, 0, 3.48171, 5.34318, -0.1, 108.156)
+material_override = SubResource("StandardMaterial3D_1vi4g")
+mesh = SubResource("PlaneMesh_vr7vi")
+skeleton = NodePath("../..")
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_vr7vi")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(0.241359, -0.646508, -0.723722, -0.578502, -0.694626, 0.427588, -0.779154, 0.315472, -0.54166, 5.72738, 19.0391, 6.94352)
+light_color = Color(0.776566, 0.904937, 0.829688, 1)
+directional_shadow_mode = 0
+
+[node name="Entorno" type="Node" parent="."]
+
+[node name="OakGreen04" type="MeshInstance3D" parent="Entorno"]
+transform = Transform3D(0.635, 0, 0, 0, 0.635, 0, 0, 0, 0.635, 24.0904, -0.131567, 2.95244)
+mesh = ExtResource("24_q1r4j")
+skeleton = NodePath("../..")
+
+[node name="LargeOakDark01" type="MeshInstance3D" parent="Entorno"]
+transform = Transform3D(0.54, 0, 0, 0, 0.54, 0, 0, 0, 0.54, 1.67919, 4.41281, -1.08377)
+mesh = ExtResource("25_m7rge")
+skeleton = NodePath("../..")
+
+[node name="LargeOakGreen02" type="MeshInstance3D" parent="Entorno"]
+transform = Transform3D(0.52, 0, 0, 0, 0.52, 0, 0, 0, 0.52, -2.9837, 4.35337, -0.646211)
+mesh = ExtResource("22_7rquo")
+skeleton = NodePath("../..")
+
+[node name="LargeOakGreen09" type="MeshInstance3D" parent="Entorno"]
+transform = Transform3D(0.52, 0, 0, 0, 0.52, 0, 0, 0, 0.52, 16.22, 0.00111055, 6.45822)
+mesh = ExtResource("22_7rquo")
+skeleton = NodePath("../..")
+
+[node name="LargeOakGreen01" type="MeshInstance3D" parent="Entorno"]
+transform = Transform3D(0.645, 0, 0, 0, 0.645, 0, 0, 0, 0.645, 25.4382, -9.68575e-08, 27.9536)
+mesh = ExtResource("22_7rquo")
+skeleton = NodePath("../..")
+
+[node name="LargeOakGreen03" type="MeshInstance3D" parent="Entorno"]
+transform = Transform3D(0.543969, 0, -0.346587, 0, 0.645, 0, 0.346587, 0, 0.543969, 21.7071, -9.68575e-08, 31.5794)
+mesh = ExtResource("22_7rquo")
+skeleton = NodePath("../..")
+
+[node name="LargeOakGreen04" type="MeshInstance3D" parent="Entorno"]
+transform = Transform3D(0.645, 0, 0, 0, 0.645, 0, 0, 0, 0.645, 25.4382, -9.68575e-08, 11.5213)
+mesh = ExtResource("22_7rquo")
+skeleton = NodePath("../..")
+
+[node name="LargeOakGreen05" type="MeshInstance3D" parent="Entorno"]
+transform = Transform3D(0.620964, 0, 0.17444, 0, 0.645, 0, -0.17444, 0, 0.620964, 24.5505, -9.68575e-08, 22.2384)
+mesh = ExtResource("22_7rquo")
+skeleton = NodePath("../..")
+
+[node name="LargeOakGreen06" type="MeshInstance3D" parent="Entorno"]
+transform = Transform3D(0.624257, 0, 0.162258, 0, 0.645, 0, -0.162258, 0, 0.624257, 24.6722, -9.68575e-08, 10.9999)
+mesh = ExtResource("22_7rquo")
+skeleton = NodePath("../..")
+
+[node name="LargeOakGreen07" type="MeshInstance3D" parent="Entorno"]
+transform = Transform3D(0.129078, 0, -0.631952, 0, 0.645, 0, 0.631952, 0, 0.129078, 17.8613, -9.68575e-08, 23.6581)
+mesh = ExtResource("22_7rquo")
+skeleton = NodePath("../..")
+
+[node name="LargeOakGreen08" type="MeshInstance3D" parent="Entorno"]
+transform = Transform3D(0.4833, 0, 0.427137, 0, 0.645, 0, -0.427137, 0, 0.4833, 19.4666, -9.68575e-08, 7.19258)
+mesh = ExtResource("22_7rquo")
+skeleton = NodePath("../..")
+
+[node name="OakDark01" type="MeshInstance3D" parent="Entorno"]
+transform = Transform3D(0.75, 0, 0, 0, 0.75, 0, 0, 0, 0.75, 29.0155, -9.68575e-08, 0.58433)
+mesh = ExtResource("23_x4utm")
+skeleton = NodePath("../..")
+
+[node name="OakDark02" type="MeshInstance3D" parent="Entorno"]
+transform = Transform3D(0.687602, 0, -0.299506, 0, 0.75, 0, 0.299506, 0, 0.687602, 26.7111, -9.68575e-08, 19.9124)
+mesh = ExtResource("23_x4utm")
+skeleton = NodePath("../..")
+
+[node name="OakDark03" type="MeshInstance3D" parent="Entorno"]
+transform = Transform3D(0.442975, 0, 0.605205, 0, 0.75, 0, -0.605205, 0, 0.442975, 16.885, -9.68575e-08, -1.81905)
+mesh = ExtResource("23_x4utm")
+skeleton = NodePath("../..")
+
+[node name="OakGreen01" type="MeshInstance3D" parent="Entorno"]
+transform = Transform3D(0.635, 0, 0, 0, 0.635, 0, 0, 0, 0.635, 0.639752, 4.2847, 33.1623)
+mesh = ExtResource("24_q1r4j")
+skeleton = NodePath("../..")
+
+[node name="OakGreen02" type="MeshInstance3D" parent="Entorno"]
+transform = Transform3D(0.528758, 0, -0.351625, 0, 0.635, 0, 0.351625, 0, 0.528758, 33.4891, -0.131567, 16.13)
+mesh = ExtResource("24_q1r4j")
+skeleton = NodePath("../..")
+
+[node name="OakGreen03" type="MeshInstance3D" parent="Entorno"]
+transform = Transform3D(0.635, 0, 0, 0, 0.635, 0, 0, 0, 0.635, 24.0904, -0.131567, 13.5771)
+mesh = ExtResource("24_q1r4j")
+skeleton = NodePath("../..")
+
+[node name="BrownCliffEnd01" type="MeshInstance3D" parent="Entorno"]
+transform = Transform3D(-0.962734, 0, 0.270449, 0, 1.49562, 0, -0.270449, 0, -0.962734, 2.76274, -0.0059467, -3.39185)
+mesh = ExtResource("12_bbcxa")
+skeleton = NodePath("../..")
+
+[node name="BrownCliffEnd02" type="MeshInstance3D" parent="Entorno"]
+transform = Transform3D(-0.917838, 0, 0.396956, 0, 2.22581, 0, -0.396956, 0, -0.917838, -1.54636, -0.533247, -3.33736)
+mesh = ExtResource("12_bbcxa")
+skeleton = NodePath("../..")
+
+[node name="PlateGrass02" type="MeshInstance3D" parent="Entorno"]
+transform = Transform3D(-6.60606e-08, -1, 0, 1.51129, -4.37114e-08, 0, 0, 0, 1.26075, -2.6793, 0.0644348, -0.911688)
+mesh = ExtResource("11_iubyd")
+skeleton = NodePath("../..")
+
+[node name="agua2" type="MeshInstance3D" parent="Entorno"]
+transform = Transform3D(1.61575, 0, 0, 0, 2.06081, 0, 0, 0, 1.0198, -2.218, -0.139037, 8.57295)
+mesh = ExtResource("10_1vi4g")
+skeleton = NodePath("../..")
+
+[node name="BrownWaterfall01" type="MeshInstance3D" parent="Entorno"]
+transform = Transform3D(-1.51564, 0, -8.74228e-08, 0, 1.84864, 0, 1.32501e-07, 0, -1, 2.27191, 0, -0.922377)
+mesh = ExtResource("8_pljmo")
+skeleton = NodePath("../..")
+
+[node name="BrownWaterfallTop01" type="MeshInstance3D" parent="Entorno"]
+transform = Transform3D(-4.361e-08, 0, 1.5167, 0, 0.997679, 0, -0.997679, 0, -6.62969e-08, 2.27208, 4.05394, -0.421637)
+mesh = ExtResource("9_4rv1x")
+skeleton = NodePath("../..")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Entorno"]
+
+[node name="pasto" type="MeshInstance3D" parent="Entorno/StaticBody3D"]
+transform = Transform3D(1.75206, 0, 0, 0, 1.00242, 0, 0, 0, 1.20936, -2.92808, 4.33707, -0.392887)
+mesh = ExtResource("11_iubyd")
+skeleton = NodePath("../../..")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Entorno/StaticBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.315454, 4.49228, -4.05121)
+shape = SubResource("BoxShape3D_4rv1x")
+
+[node name="BrownCliffEnd03" type="MeshInstance3D" parent="Entorno"]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1.49562, 0, 8.74228e-08, 0, -1, 2.76274, -0.00825024, 8.24863)
+mesh = ExtResource("12_bbcxa")
+skeleton = NodePath("../..")
+
+[node name="BrownCliffEnd04" type="MeshInstance3D" parent="Entorno"]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 2.22581, 0, 8.74228e-08, 0, -1, -2.03972, -2.38419e-07, 7.88423)
+mesh = ExtResource("12_bbcxa")
+skeleton = NodePath("../..")
+
+[node name="PlateGrass03" type="MeshInstance3D" parent="Entorno"]
+transform = Transform3D(6.60606e-08, 1, -1.10219e-07, 1.51129, -4.37114e-08, 0, -5.7752e-15, -8.74228e-08, -1.26075, -2.6793, 0, 8.24863)
+mesh = ExtResource("11_iubyd")
+skeleton = NodePath("../..")
+
+[node name="BrownWaterfallTop02" type="MeshInstance3D" parent="Entorno"]
+transform = Transform3D(-0.997679, 0, -1.32594e-07, 0, 0.997679, 0, 8.72199e-08, 0, -1.5167, 2.27208, 0, 8.24863)
+mesh = ExtResource("9_4rv1x")
+skeleton = NodePath("../..")
+
+[node name="fondo" type="StaticBody3D" parent="Entorno"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 33.5273, 0, 0)
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Entorno/fondo"]
+transform = Transform3D(-4.21703e-06, -6.52436, 0, -4.21703e-06, 1.2466e-14, -34.3828, 96.4743, -2.85189e-07, -1.50292e-06, -3.12818, 13.1731, 13.5497)
+material_override = SubResource("StandardMaterial3D_q1r4j")
+mesh = SubResource("PlaneMesh_m7rge")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Entorno/fondo"]
+shape = SubResource("SphereShape3D_r5n8s")
+
+[node name="StaticBody3D2" type="StaticBody3D" parent="Entorno"]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 0, 0, 8.24863)
+
+[node name="pasto" type="MeshInstance3D" parent="Entorno/StaticBody3D2"]
+transform = Transform3D(1.75206, 0, 0, 0, 1.00242, 0, 0, 0, 1.20936, -2.92808, 4.18663, -0.392887)
+mesh = ExtResource("11_iubyd")
+skeleton = NodePath("../../..")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Entorno/StaticBody3D2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.315454, 4.49228, -2.19819)
+shape = SubResource("BoxShape3D_4rv1x")
+
+[node name="pruebas" type="Node" parent="."]
+
+[node name="Prueba 1" type="Node" parent="pruebas"]
+
+[node name="van" type="RigidBody3D" parent="pruebas/Prueba 1"]
+transform = Transform3D(0.995871, 0, 0, 0, 0.995871, 0, 0, 0, 0.995871, 5.65265, -0.212855, 3.24765)
+visible = false
+collision_layer = 4
+collision_mask = 143
+mass = 2.0
+script = ExtResource("14_etwc2")
+force = 22.0
+
+[node name="Van" type="MeshInstance3D" parent="pruebas/Prueba 1/van"]
+mesh = ExtResource("14_h30pj")
+skeleton = NodePath("../../../..")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="pruebas/Prueba 1/van"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.00572968, 0.605294, -0.0695972)
+shape = SubResource("BoxShape3D_575rk")
+
+[node name="Prueba 2" type="Node" parent="pruebas"]
+
+[node name="Seda" type="RigidBody3D" parent="pruebas/Prueba 2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.57084, 0, 3.08024)
+visible = false
+collision_layer = 132
+collision_mask = 15
+mass = 1.5
+script = ExtResource("16_ujq1v")
+
+[node name="Sedan-sports" type="MeshInstance3D" parent="pruebas/Prueba 2/Seda"]
+mesh = ExtResource("15_etwc2")
+skeleton = NodePath("../../../..")
+
+[node name="coli seda" type="CollisionShape3D" parent="pruebas/Prueba 2/Seda"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.000976562, 0.574444, -0.0601807)
+shape = SubResource("BoxShape3D_bf7oh")
+
+[node name="suvaru" type="RigidBody3D" parent="pruebas/Prueba 2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9.53142, 0, 2.9359)
+visible = false
+collision_mask = 129
+mass = 2.0
+script = ExtResource("18_ujq1v")
+force = 22.0
+
+[node name="Suv" type="MeshInstance3D" parent="pruebas/Prueba 2/suvaru"]
+mesh = ExtResource("16_575rk")
+skeleton = NodePath("../../../..")
+
+[node name="coli suv" type="CollisionShape3D" parent="pruebas/Prueba 2/suvaru"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.00292969, 0.674406, -0.0294495)
+shape = SubResource("BoxShape3D_7rfcv")
+
+[node name="Prueba 3" type="Node" parent="pruebas"]
