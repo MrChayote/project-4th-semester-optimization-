@@ -1,36 +1,35 @@
 # LEGO Bridge Simulation Project 🚗🌉
 
-This repository contains a simulation project developed in the Godot engine. The goal is to find the optimal configuration of LEGO-like pieces to build a bridge that allows a firetruck to cross safely, using realistic physics such as gravity, weight, and speed.
+This repository contains a simulation project developed using the Godot game engine. The goal is to find the optimal configuration of LEGO-like pieces to build a bridge that allows a firetruck to cross safely, considering physical forces such as gravity, weight, and velocity.
 
 ## 📁 Repository Structure
 
-This repository includes multiple branches with different versions of the Godot project:
+This repository includes several branches, each with a different format of the project:
 
-### 🔹 Branch: `Files-Godot-game`
-This branch contains the Godot project with all files uploaded individually. It is useful if you want to explore or modify specific parts of the project.
+### 🔹 [`Files-Godot-game` branch](https://github.com/MrChayote/project-4th-semester-optimization-/tree/Files-Godot-game)
+This branch contains the Godot project with all files uploaded individually. It is ideal for reviewing and editing specific parts of the simulation.
 
-### 🔹 Branch: `Godot-file`
-This branch contains a single `.zip` file with the complete Godot project. It's recommended if you want to quickly download and run the simulation in Godot.
+### 🔹 [`Godot-file` branch](https://github.com/MrChayote/project-4th-semester-optimization-/tree/Godot-file)
+This branch contains the entire project bundled in a single `.zip` file. Recommended if you want to download and run the simulation quickly in the Godot editor.
 
 ## 🧠 Project Overview
 
-The project simulates a 3D environment where bridge structures are built using LEGO-style blocks. An evolutionary algorithm is used to find the best configuration that allows a firetruck to cross the bridge without collapsing.
+The project simulates a 3D environment where bridge structures are created using LEGO-like blocks. An evolutionary algorithm is used to optimize these structures so that a firetruck can cross from one mountain to another.
 
-Each individual (bridge design) is evaluated based on:
-
+Each "individual" (bridge candidate) is evaluated based on:
 - Structural stability
 - Number of pieces used
-- Whether the test (bridge crossing) was completed successfully
+- Whether the firetruck successfully crosses the bridge (`test passed`)
 
-More technical details are explained in the file `Parcial 2 IB.pdf` located in the main branch.
+More technical details can be found in the [`Parcial 2 IB.pdf`](https://github.com/MrChayote/project-4th-semester-optimization-/blob/main/Parcial%202%20IB.pdf) file.
 
 ---
 
 ## 📌 Notes
 
-- The `main` branch serves as an index and does not contain the full simulation.
-- Switch to one of the other branches to access the full Godot project.
+- The [`main` branch](https://github.com/MrChayote/project-4th-semester-optimization-/tree/main) serves as an index for the project.
+- To explore or run the simulation, switch to one of the branches listed above.
 
 ---
 
-Thank you for checking out this repository! Feel free to contribute or open an issue if you have any suggestions or questions.
+Thanks for checking out this repository! Feel free to contribute or open an issue if you have questions or ideas.
